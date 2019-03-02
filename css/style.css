@@ -3810,6 +3810,96 @@ h6 {
     padding: 60px 0; } }
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+/* - &:nth-child(1) {
+			 grid-area: entry1;
+		 }
+   - useful timesaver if there is a lengthy list
+*/
+.timeline {
+  line-height: 1.5em;
+  font-size: 14px;
+  transition: all .4s ease;
+  position: relative;
+  counter-reset: section; }
+  .timeline:before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    background: #777777;
+    position: absolute;
+    top: 0;
+    left: -3.313em;
+    border-radius: 40px 40px; }
+
+.timeline--entry {
+  position: relative; }
+  .timeline--entry__title {
+    color: white;
+    background-color: #2c2172;
+    font-size: 1rem;
+    padding: 1em; }
+    .timeline--entry__title:before {
+      content: "";
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      position: absolute;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      left: -1em;
+      border-right: 10px solid #2c2172; }
+  .timeline--entry__detail {
+    padding: 1em;
+    margin: 0; }
+  .timeline--entry:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+    background-color: #2c2172;
+    border: .2em solid white;
+    border-radius: 50%;
+    position: absolute;
+    counter-increment: section;
+    content: counter(section);
+    left: -4.5em; }
+
+.timeline-wrapper {
+  margin: 3.125em auto;
+  padding: 1em 5em 1em;
+  max-width: 1000px;
+  line-height: 1.5; }
+
+@supports (display: grid) {
+  @media (min-width: 768px) {
+    .timeline {
+      display: grid;
+      grid-gap: 4.75em;
+      grid-template-areas: ".  entry1" "entry2  ." ". entry3" "entry4 ." ". entry5"; }
+      .timeline:before {
+        left: 49.5%; }
+
+    .timeline--entry:nth-child(1) {
+      grid-area: entry1; }
+    .timeline--entry:nth-child(2) {
+      grid-area: entry2; }
+    .timeline--entry:nth-child(3) {
+      grid-area: entry3; }
+    .timeline--entry:nth-child(4) {
+      grid-area: entry4; }
+    .timeline--entry:nth-child(5) {
+      grid-area: entry5; }
+    .timeline--entry:nth-of-type(odd):before {
+      left: -3.8em; }
+    .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
+      left: 100%;
+      border-left: 10px solid #2c2172;
+      border-right: 0; }
+    .timeline--entry:nth-of-type(even):before {
+      left: 103%; } } }
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
