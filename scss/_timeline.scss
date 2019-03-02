@@ -30,6 +30,10 @@
 $timeline-indicator-color: $header-color;
 $timeline-title-background-color: $header-color;
 
+.timeline-section{
+  background-color: white;
+  padding-bottom: 30px;
+}
 
 //- Mobile First Timeline - stacked for small viewports and browsers that don't support grid
 .timeline {
@@ -73,6 +77,9 @@ $timeline-title-background-color: $header-color;
   &__detail {
     padding: 1em;
     margin: 0;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 400;
   }
 
   //- number indicator
@@ -134,6 +141,10 @@ $tablet-width: 768px;
         //- Default position the number indicator mobile
         &:before {
           left: -3.8em;
+        }
+
+        .timeline--entry__detail{
+          text-align: right;
         }
       }
 

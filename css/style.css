@@ -3815,6 +3815,10 @@ h6 {
 		 }
    - useful timesaver if there is a lengthy list
 */
+.timeline-section {
+  background-color: white;
+  padding-bottom: 30px; }
+
 .timeline {
   line-height: 1.5em;
   font-size: 14px;
@@ -3852,7 +3856,10 @@ h6 {
     background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%); }
   .timeline--entry__detail {
     padding: 1em;
-    margin: 0; }
+    margin: 0;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 400; }
   .timeline--entry:before {
     display: flex;
     align-items: center;
@@ -3895,6 +3902,8 @@ h6 {
       grid-area: entry5; }
     .timeline--entry:nth-of-type(odd):before {
       left: -3.8em; }
+    .timeline--entry:nth-of-type(odd) .timeline--entry__detail {
+      text-align: right; }
     .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
       left: 100%;
       border-left: 10px solid #2c2172;
