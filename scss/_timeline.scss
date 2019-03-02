@@ -27,7 +27,7 @@
 }
 
 //- Variables
-$timeline-indicator-color: $text-color;
+$timeline-indicator-color: $header-color;
 $timeline-title-background-color: $header-color;
 
 
@@ -57,14 +57,17 @@ $timeline-title-background-color: $header-color;
 
   &__title {
     color: white;
-    background-color: $timeline-title-background-color;
-    font-size: 1rem;
+    @include transition;
+    background-color: $header-color;
+    font-size: 1.5rem;
     padding: 1em;
-    &:before {
-      @include timeline-indicator;
-      left: -1em;
-      border-right: 10px solid $timeline-title-background-color;
-    }
+    letter-spacing: 2px;
+    border-radius: 30px;
+  }
+
+  &__title:hover {
+    color: black;
+    @include gradient( to right, $primary-color 0%, $primary-color2 51%);
   }
 
   &__detail {
@@ -85,6 +88,7 @@ $timeline-title-background-color: $header-color;
     position: absolute;
     counter-increment: section;
     content: counter(section);
+    color: #fff;
     left: -4.5em;
   }
 }

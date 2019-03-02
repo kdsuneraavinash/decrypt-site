@@ -3825,7 +3825,7 @@ h6 {
     content: "";
     width: 10px;
     height: 100%;
-    background: #777777;
+    background: #2c2172;
     position: absolute;
     top: 0;
     left: -3.313em;
@@ -3835,19 +3835,21 @@ h6 {
   position: relative; }
   .timeline--entry__title {
     color: white;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
     background-color: #2c2172;
-    font-size: 1rem;
-    padding: 1em; }
-    .timeline--entry__title:before {
-      content: "";
-      display: inline-block;
-      width: 1em;
-      height: 1em;
-      position: absolute;
-      border-top: 10px solid transparent;
-      border-bottom: 10px solid transparent;
-      left: -1em;
-      border-right: 10px solid #2c2172; }
+    font-size: 1.5rem;
+    padding: 1em;
+    letter-spacing: 2px;
+    border-radius: 30px; }
+  .timeline--entry__title:hover {
+    color: black;
+    background: -webkit-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%);
+    background: -moz-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%);
+    background: -o-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%);
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%); }
   .timeline--entry__detail {
     padding: 1em;
     margin: 0; }
@@ -3863,6 +3865,7 @@ h6 {
     position: absolute;
     counter-increment: section;
     content: counter(section);
+    color: #fff;
     left: -4.5em; }
 
 .timeline-wrapper {
