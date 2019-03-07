@@ -2,7 +2,7 @@
 ============================================================================================ */
 
 .footer_area {
-    @include gradient2(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+    @include gradient2(to right, #000 0%, #000 51%, #000 100%);
     .f_widget {
         .f_title {
             margin-bottom: 40px;
@@ -34,30 +34,13 @@
     padding: 30px 0;
     border-top: 1px solid rgba(255, 255, 255, .1);
     .copy_right_text {
+        text-align: center;
         p {
             margin: 0;
             color: #fff;
             margin-left: -15px;
             a {
                 color: $primary-color;
-            }
-        }
-    }
-    .social_widget {
-        text-align: right;
-        position: relative;
-        margin-right: -15px;
-        a {
-            color: #fff;
-            height: 30px;
-            width: 30px;
-            line-height: 30px;
-            background: #4c4588;
-            margin-left: 6px;
-            display: inline-block;
-            text-align: center;
-            &:hover {
-                background: $primary-color;
             }
         }
     }

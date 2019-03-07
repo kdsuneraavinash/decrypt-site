@@ -24,25 +24,38 @@
 /* Start Upcoming Games Area css
 ============================================================================================ */
 
-.upcoming_games_area {
+.upcoming_events_area {
     padding: 120px 0 80px;
+    background: url("../img/decrypt.jpeg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    .main_title{
+        h1{
+            color: $white;
+        }
+    }
 }
 
-.new_games_item {
+.new_events_item {
     position: relative;
     display: inline-block;
     margin-bottom: 40px;
+    img{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
     &:hover {
         .upcoming_title {
             @include gradient(to right, $primary-color 0%, $primary-color2 100%);
             a {
-                color: #22195e;
+                color: $white;
             }
         }
     }
     .upcoming_title {
         position: absolute;
-        background: rgba(44, 37, 93, 0.8);
+        background: transparentize($header-color, 0.3);
         top: 50%;
         width: 100%;
         text-align: center;
@@ -54,7 +67,7 @@
             padding: 20px;
             @include transition();
             a {
-                color: #fff;
+                color: $white;
             }
         }
     }
@@ -67,9 +80,11 @@
 ============================================================================================ */
 
 .recent_update_area {
-    background: url(../img/recent_up_bg.png) no-repeat center;
+    background: url(../img/decrypt.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
     &.made_white {
-        background: #fff;
+        background: $white;
     }
 }
 
@@ -86,11 +101,11 @@
         li {
             flex: 0 0 33%;
             max-width: 33%;
-            padding: 0px 15px;
+            padding: 0 15px;
             a {
                 position: relative;
-                padding: 0px;
-                border: 0px;
+                padding: 0;
+                border: 0;
                 border-radius: 0;
                 text-align: center;
                 height: 50px;
@@ -98,7 +113,7 @@
                 font-size: 18px;
                 font-family: $title-font;
                 font-weight: 600;
-                color: #fff;
+                color: $white;
                 &:after {
                     position: absolute;
                     left: 0;
@@ -109,14 +124,13 @@
                     width: 100%;
                     content: "";
                     border: 2px solid transparent;
-                    @include border-gradient(90deg, #3fcaff, #a4ffb0);
+                    @include border-gradient(90deg, $primary-color, $primary-color2);
                     border-image-slice: 1;
                 }
                 &.active,
                 &:hover {
                     @extend .gradient-bg;
-                    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-                    color: #000000;
+                    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
                 }
             }
         }
@@ -136,20 +150,12 @@
             height: 100% !important;
             z-index: 999;
         }
-        &:after {
-            content: "";
-            position: absolute;
-            height: 100%;
-            width: 20%;
-            top: 0;
-            right: -40px;
-            background: #3e3590;
-            z-index: -1;
-        }
     }
     .section_content {
-        @include gradient(to right, #3e3590 0%, #231a60 100%);
-    }
+        .primary_btn{
+            color: $white;
+        }
+     }
 }
 
 /* End Recent Update Area css
