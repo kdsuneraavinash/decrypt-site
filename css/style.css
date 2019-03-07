@@ -16,7 +16,7 @@ Author E-mail: naimlasker@gmail.com
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Rajdhani:600,700|Roboto:400,500,500i");
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono:600,700|Roboto:400,500,500i");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600; }
 
 .list {
@@ -583,7 +583,7 @@ img {
     .banner_area .banner_inner .banner_content h2 {
       color: #fff;
       font-size: 36px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Roboto", sans-serif;
       margin-bottom: 0px;
       text-transform: uppercase;
       font-weight: bold;
@@ -2810,7 +2810,7 @@ h6 {
       height: 50px;
       line-height: 50px;
       font-size: 18px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 600;
       color: #fff; }
       .recent_update_inner .nav.nav-tabs li a:after {
@@ -3094,7 +3094,7 @@ h6 {
         font-size: 18px;
         font-weight: 600;
         color: #fff;
-        font-family: "Rajdhani", sans-serif; }
+        font-family: "Roboto", sans-serif; }
       .blog_area .blog_items .blog_content p {
         color: #ddd;
         font-weight: 400;
