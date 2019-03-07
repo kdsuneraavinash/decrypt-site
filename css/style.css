@@ -16,7 +16,7 @@ Author E-mail: naimlasker@gmail.com
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Rajdhani:600,700|Roboto:400,500,500i");
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono:600,700|Roboto:400,500,500i");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600; }
 
 .list {
@@ -361,7 +361,7 @@ img {
   top: 0;
   left: 0;
   z-index: 9999;
-  background: #2c2172; }
+  background: #000; }
   .header_area .navbar-brand {
     margin-right: 30px; }
   .header_area .menu_nav {
@@ -457,7 +457,7 @@ img {
     top: -70px;
     left: 0;
     right: 0;
-    background: #2c2172;
+    background: #000;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -495,7 +495,7 @@ img {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat center center;
+  background: url(../img/decrypt.jpeg) no-repeat center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
@@ -583,7 +583,7 @@ img {
     .banner_area .banner_inner .banner_content h2 {
       color: #fff;
       font-size: 36px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Roboto", sans-serif;
       margin-bottom: 0px;
       text-transform: uppercase;
       font-weight: bold;
@@ -2810,7 +2810,7 @@ h6 {
       height: 50px;
       line-height: 50px;
       font-size: 18px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 600;
       color: #fff; }
       .recent_update_inner .nav.nav-tabs li a:after {
@@ -3094,7 +3094,7 @@ h6 {
         font-size: 18px;
         font-weight: 600;
         color: #fff;
-        font-family: "Rajdhani", sans-serif; }
+        font-family: "Roboto", sans-serif; }
       .blog_area .blog_items .blog_content p {
         color: #ddd;
         font-weight: 400;
@@ -3829,7 +3829,7 @@ h6 {
     content: "";
     width: 10px;
     height: 100%;
-    background: #2c2172;
+    background: #000;
     position: absolute;
     top: 0;
     left: -3.313em;
@@ -3843,7 +3843,7 @@ h6 {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    background-color: #2c2172;
+    background-color: #000;
     font-size: 1.5rem;
     padding: 1em;
     letter-spacing: 2px;
@@ -3866,7 +3866,7 @@ h6 {
     justify-content: center;
     width: 3em;
     height: 3em;
-    background-color: #2c2172;
+    background-color: #000;
     border: .2em solid white;
     border-radius: 50%;
     position: absolute;
@@ -3906,7 +3906,7 @@ h6 {
       text-align: right; }
     .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
       left: 100%;
-      border-left: 10px solid #2c2172;
+      border-left: 10px solid #000;
       border-right: 0; }
     .timeline--entry:nth-of-type(even):before {
       left: 103%; } } }
