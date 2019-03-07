@@ -1,47 +1,3 @@
-/* Home Banner Area css
-============================================================================================ */
-
-.home_banner_area {
-    z-index: 1;
-    min-height: 100vh;
-    background: url(../img/decrypt.jpeg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    .banner_inner {
-        width: 100%;
-        .home_left_img {
-            padding-top: 230px;
-            padding-bottom: 230px;
-        }
-        .col-lg-6 {
-            vertical-align: middle;
-            align-self: center;
-        }
-        .banner_content {
-            text-align: left;
-            color: #fff;
-            margin-left: 70px;
-            h2 {
-                margin-top: 0px;
-                font-size: 60px;
-                font-weight: bold;
-                line-height: 72px;
-                margin-bottom: 20px;
-            }
-            p {
-                color: #fff;
-                font-size: 16px;
-                margin-bottom: 20px;
-            }
-            .watch_video {
-                margin: 0 30px;
-                font-size: 12px;
-                text-transform: uppercase;
-            }
-        }
-    }
-}
-
 .banner_box {
     max-width: 1620px;
     margin: auto;
@@ -90,7 +46,6 @@
                     position: relative;
                     &:before {
                         content: "\e87a";
-                        font-family: 'Linearicons-Free';
                         font-size: 14px;
                         position: absolute;
                         right: -25px;

@@ -52,129 +52,50 @@
 	</section>
 	<!--================End Home Banner Area =================-->
 
-	<!--================First Upcoming Games Area =================-->
-	<section class="upcoming_events_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h1>Upcoming Events</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row text-center">
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left">
-					<div class="new_events_item">
-						<img src="img/events/exhibition.jpeg" alt="" class="rounded">
-						<div class="upcoming_title">
-							<h3><a href="games.html">Decrypt Exhibition</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left">
-					<div class="new_events_item">
-						<img src="img/events/ideathon.jpeg" alt="" class="rounded">
-						<div class="upcoming_title">
-							<h3><a href="games.html">Ideathon</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left">
-					<div class="new_events_item">
-						<img src="img/events/escape.png" alt="" class="rounded">
-						<div class="upcoming_title">
-							<h3><a href="games.html">Escape Room</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="flip-left">
-					<div class="new_events_item">
-						<img src="img/events/game.jpg" alt="" class="rounded">
-						<div class="upcoming_title">
-							<h3><a href="games.html">Gaming Competition</a></h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Upcoming Games Area =================-->
-
-	<!--================Start Timeline ========================-->
-
-<!--	<section class="timeline-section">-->
-<!--		<div class="container">-->
-<!--			<div class="timeline-wrapper">-->
-<!--				<div class="timeline">-->
-<!--					<dl class="timeline--entry">-->
-<!--						<dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>-->
-<!--						<dd class="timeline--entry__detail" data-aos="zoom-in">Registration Opens for Ideathon</dd>-->
-<!--					</dl>-->
-<!--					<dl class="timeline--entry">-->
-<!--						<dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>-->
-<!--						<dd class="timeline--entry__detail" data-aos="zoom-in"> Registration Opens for Ideathon</dd>-->
-<!--					</dl>-->
-<!--					<dl class="timeline--entry">-->
-<!--						<dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>-->
-<!--						<dd class="timeline--entry__detail" data-aos="zoom-in">Registration Opens for Ideathon</dd>-->
-<!--					</dl>-->
-<!--					<dl class="timeline--entry">-->
-<!--						<dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>-->
-<!--						<dd class="timeline--entry__detail" data-aos="zoom-in">Registration Opens for Ideathon</dd>-->
-<!--					</dl>-->
-<!--					<dl class="timeline--entry">-->
-<!--						<dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>-->
-<!--						<dd class="timeline--entry__detail" data-aos="zoom-in">Registration Opens for Ideathon</dd>-->
-<!--					</dl>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--	</section>-->
-	<!--================End Timeline =================-->
-
 	<!--================Start Recent Update Area =================-->
 	<section class="recent_update_area py-4">
 		<div class="container">
 			<div class="recent_update_inner">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+						<a class="nav-link active" id="ideathon-tab" data-toggle="tab" href="#ideathon" role="tab" aria-controls="ideathon" aria-selected="true">
 							Ideathon
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+						<a class="nav-link" id="escape-tab" data-toggle="tab" href="#escape" role="tab" aria-controls="escape"
 						 aria-selected="false">
 							Escape Room
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+						<a class="nav-link" id="gaming-tab" data-toggle="tab" href="#gaming" role="tab" aria-controls="gaming"
 						 aria-selected="false">
 							Gaming Competition
 						</a>
 					</li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                        <a class="nav-link" id="workshop-tab" data-toggle="tab" href="#workshop" role="tab" aria-controls="workshop"
                            aria-selected="false">
                             Workshop
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                        <a class="nav-link" id="coding-tab" data-toggle="tab" href="#coding" role="tab" aria-controls="coding"
                            aria-selected="false">
                             Coding Competition
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                        <a class="nav-link" id="exhibition-tab" data-toggle="tab" href="#exhibition" role="tab" aria-controls="exhibition"
                            aria-selected="false">
-                            Exhibition
+                            Decrypt Exhibition
                         </a>
                     </li>
 				</ul>
 				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+					<div class="tab-pane fade show active" id="ideathon" role="tabpanel" aria-labelledby="ideathon-tab">
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
@@ -183,7 +104,7 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="section_content">
-									<h6>About Us</h6>
+									<h6>Ideathon</h6>
 									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
 									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
 										especially in the workplace. That’s why it’s crucial that as women.</p>
@@ -192,7 +113,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					<div class="tab-pane fade" id="escape" role="tabpanel" aria-labelledby="escape-tab">
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
@@ -201,7 +122,7 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="section_content">
-									<h6>About Us</h6>
+									<h6>Escape Room</h6>
 									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
 									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
 										especially in the workplace. That’s why it’s crucial that as women.</p>
@@ -210,7 +131,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+					<div class="tab-pane fade" id="gaming" role="tabpanel" aria-labelledby="gaming-tab">
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
@@ -219,15 +140,70 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="section_content">
-									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
+									<h6>Gaming Competition</h6>
+									<h1>All work and no play makes you dull...</h1>
+									<p>That's exactly why we have a gaming competition for you! Join us to show off your masterhood with
+                                        <strong>Decrypt Gaming Competition</strong>.</p>
 									<a class="primary_btn" href="#">Learn More</a>
 								</div>
 							</div>
 						</div>
 					</div>
+                    <div class="tab-pane fade" id="workshop" role="tabpanel" aria-labelledby="workshop-tab">
+                        <div class="row recent_update_text">
+                            <div class="col-lg-6">
+                                <div class="chart_img">
+                                    <img class="img-fluid" src="img/recent_up.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="section_content">
+                                    <h6>Workshop</h6>
+                                    <h1>We Believe that <br>Interior beauty Lasts Long</h1>
+                                    <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                                        especially in the workplace. That’s why it’s crucial that as women.</p>
+                                    <a class="primary_btn" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="coding" role="tabpanel" aria-labelledby="coding-tab">
+                        <div class="row recent_update_text">
+                            <div class="col-lg-6">
+                                <div class="chart_img">
+                                    <img class="img-fluid" src="img/recent_up.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="section_content">
+                                    <h6>Coding Competition</h6>
+                                    <h1>We Believe that <br>Interior beauty Lasts Long</h1>
+                                    <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                                        especially in the workplace. That’s why it’s crucial that as women.</p>
+                                    <a class="primary_btn" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="exhibition" role="tabpanel" aria-labelledby="exhibition-tab">
+                        <div class="row recent_update_text">
+                            <div class="col-lg-6">
+                                <div class="chart_img">
+                                    <img class="img-fluid" src="img/recent_up.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="section_content">
+                                    <h6>Decrypt Exhibition</h6>
+                                    <h1>We Believe that <br>Interior beauty Lasts Long</h1>
+                                    <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                                        especially in the workplace. That’s why it’s crucial that as women.</p>
+                                    <a class="primary_btn" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 				</div>
 			</div>
 		</div>
@@ -240,9 +216,9 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
 	<script>
-		var tw_source = document.getElementById('tw_source');
+		let tw_source = document.getElementById('tw_source');
 
-		var typewriter = new Typewriter(tw_source, {
+        let typewriter = new Typewriter(tw_source, {
 			loop: true,
 			cursor: "<span class='cursor'></span>"
 		});
