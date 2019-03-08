@@ -40,41 +40,8 @@
 @media (max-width:991px){
 	/* Main Menu Area css
 	============================================================================================ */
-    .navbar-toggler {
-        border: none;
-        border-radius: 0;
-        padding: 0;
-        cursor: pointer;
-        margin-top: 27px;
-        margin-bottom: 23px;
-    }
 	.header_area .navbar {
-		background: #000;
-	}
-    .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
-		opacity: 1;
-	}
-	.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
-		opacity: 0;
-	}
-	.navbar-toggler[aria-expanded="true"] span:first-child {
-		transform: rotate(-45deg);
-		position: relative;
-		top: 7.5px;
-	}
-	.navbar-toggler[aria-expanded="true"] span:last-child {
-		transform: rotate(45deg);
-		bottom: 6px;
-		position: relative;
-	}
-	.navbar-toggler span{
-		display: block;
-		width: 25px;
-		height: 3px;
-		background: #fff;
-		margin: auto auto 4px;
-		transition: all 400ms linear;
-		cursor: pointer;
+		background: $header-color;
 	}
     .navbar .container{
         padding-left: 15px;
@@ -97,12 +64,8 @@
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0;
     }
-    .header_area .navbar .search{
-        margin-left: 0;
-    }
 	.header_area .navbar-collapse{
-		max-height: 340px;
-		overflow-y: scroll;
+		overflow-y: hidden;
 	}
 	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
 		padding: 0 15px;
@@ -149,7 +112,9 @@
 		display: none;
 	}
 	.header_area .navbar .primary_btn {
-		display: none;
+		margin-left: 0;
+		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 	.home_banner_area .banner_inner {
 		padding: 70px 0 100px 0;
@@ -256,13 +221,6 @@
 }
 
 @media (max-width:480px){
-	/* Main Menu Area css
-	============================================================================================ */
-	.header_area .navbar-collapse{
-		max-height: 250px;
-	}
-	/* End Main Menu Area css
-	============================================================================================ */
 	
 	/* Home Banner Area css
 	============================================================================================ */

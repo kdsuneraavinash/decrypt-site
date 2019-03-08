@@ -31,7 +31,22 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #777777;
-  background: #000; }
+  background: #0D141A; }
+
+/*
+-----------------------------------------------
+Scroll Bar
+-----------------------------------------------
+ */
+body::-webkit-scrollbar {
+  width: 15px; }
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px #ccc; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0D141A;
+  outline: 1px solid #000; }
 
 h1,
 h2,
@@ -489,6 +504,13 @@ img {
     border-radius: 50px;
     line-height: 40px;
     color: #fff; }
+  .header_area .hamburger-inner,
+  .header_area .hamburger-inner:after,
+  .header_area .hamburger-inner:before,
+  .header_area .hamburger.is-active .hamburger-inner,
+  .header_area .hamburger.is-active .hamburger-inner:after,
+  .header_area .hamburger.is-active .hamburger-inner:before {
+    background-color: #fff; }
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -499,10 +521,7 @@ img {
 .banner_area {
   position: relative;
   min-height: 430px;
-  z-index: 1;
-  background: url(../img/decrypt.jpeg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed; }
+  z-index: 1; }
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
@@ -1537,10 +1556,7 @@ h6 {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  min-height: 100vh;
-  background: url(../img/decrypt.jpeg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed; }
+  min-height: 100vh; }
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_left_img {
@@ -1568,63 +1584,31 @@ h6 {
         font-size: 12px;
         text-transform: uppercase; }
 
-/* Start Upcoming Games Area css
+/* Start About Us Area css
 ============================================================================================ */
-.upcoming_events_area {
-  padding: 120px 0 80px;
-  background: url("../img/decrypt.jpeg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed; }
-  .upcoming_events_area .main_title h1 {
-    color: #fff; }
+.about_us_area {
+  position: relative; }
 
-.new_events_item {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 40px; }
-  .new_events_item img {
-    width: 300px;
-    height: 400px;
-    object-fit: cover; }
-  .new_events_item:hover .upcoming_title {
-    background: -webkit-linear-gradient(to right, #396afc 0%, #2948ff 100%);
-    background: -moz-linear-gradient(to right, #396afc 0%, #2948ff 100%);
-    background: -o-linear-gradient(to right, #396afc 0%, #2948ff 100%);
-    background: linear-gradient(to right, #396afc 0%, #2948ff 100%); }
-    .new_events_item:hover .upcoming_title a {
-      color: #fff; }
-  .new_events_item .upcoming_title {
+.about_content {
+  position: relative; }
+  .about_content:before {
+    content: "";
     position: absolute;
-    background: rgba(0, 0, 0, 0.7);
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s; }
-    .new_events_item .upcoming_title h3 {
-      font-size: 18px;
-      margin: 0;
-      padding: 20px;
-      -webkit-transition: all 0.4s ease 0s;
-      -moz-transition: all 0.4s ease 0s;
-      -o-transition: all 0.4s ease 0s;
-      transition: all 0.4s ease 0s; }
-      .new_events_item .upcoming_title h3 a {
-        color: #fff; }
+    height: 100%;
+    width: 89%;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(to right, #000 0%, #000 100%);
+    background: -moz-linear-gradient(to right, #000 0%, #000 100%);
+    background: -o-linear-gradient(to right, #000 0%, #000 100%);
+    background: linear-gradient(to right, #000 0%, #000 100%); }
 
-/* End Upcoming Games Area css
+/* End About Us Area css
 ============================================================================================ */
 /* Start Recent Update Area css
 ============================================================================================ */
-.recent_update_area {
-  background: url(../img/decrypt.jpeg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed; }
-  .recent_update_area.made_white {
-    background: #fff; }
+.recent_update_area.made_white {
+  background: #fff; }
 
 .recent_update_inner .nav.nav-tabs {
   border: none;
@@ -1685,28 +1669,6 @@ h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-/* Start About Us Area css
-============================================================================================ */
-.about_us_area {
-  position: relative; }
-
-.about_content {
-  position: relative; }
-  .about_content:before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 89%;
-    top: 0;
-    left: 0;
-    background: -webkit-linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
-    background: -moz-linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
-    background: -ms-linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
-    background: -o-linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
-    background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%); }
-
-/* End About Us Area css
-============================================================================================ */
 /* Start Gallery Area css
 ============================================================================================ */
 .gallery_area {
@@ -1866,41 +1828,8 @@ h6 {
 @media (max-width: 991px) {
   /* Main Menu Area css
   ============================================================================================ */
-  .navbar-toggler {
-    border: none;
-    border-radius: 0;
-    padding: 0;
-    cursor: pointer;
-    margin-top: 27px;
-    margin-bottom: 23px; }
-
   .header_area .navbar {
     background: #000; }
-
-  .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
-    opacity: 1; }
-
-  .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
-    opacity: 0; }
-
-  .navbar-toggler[aria-expanded="true"] span:first-child {
-    transform: rotate(-45deg);
-    position: relative;
-    top: 7.5px; }
-
-  .navbar-toggler[aria-expanded="true"] span:last-child {
-    transform: rotate(45deg);
-    bottom: 6px;
-    position: relative; }
-
-  .navbar-toggler span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background: #fff;
-    margin: auto auto 4px;
-    transition: all 400ms linear;
-    cursor: pointer; }
 
   .navbar .container {
     padding-left: 15px;
@@ -1922,12 +1851,8 @@ h6 {
     border-bottom: 1px solid #ededed33;
     border-radius: 0; }
 
-  .header_area .navbar .search {
-    margin-left: 0; }
-
   .header_area .navbar-collapse {
-    max-height: 340px;
-    overflow-y: scroll; }
+    overflow-y: hidden; }
 
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
     padding: 0 15px; }
@@ -1973,7 +1898,9 @@ h6 {
     display: none; }
 
   .header_area .navbar .primary_btn {
-    display: none; }
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 15px; }
 
   .home_banner_area .banner_inner {
     padding: 70px 0 100px 0; }
@@ -2068,13 +1995,6 @@ h6 {
   .pad_btm {
     padding-bottom: 70px; } }
 @media (max-width: 480px) {
-  /* Main Menu Area css
-  ============================================================================================ */
-  .header_area .navbar-collapse {
-    max-height: 250px; }
-
-  /* End Main Menu Area css
-  ============================================================================================ */
   /* Home Banner Area css
   ============================================================================================ */
   .home_banner_area .banner_inner .banner_content {

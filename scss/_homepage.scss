@@ -4,9 +4,6 @@
 .home_banner_area {
   z-index: 1;
   min-height: 100vh;
-  background: url(../img/decrypt.jpeg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
   .banner_inner {
     width: 100%;
     .home_left_img {
@@ -42,68 +39,33 @@
   }
 }
 
-/* Start Upcoming Games Area css
+/* Start About Us Area css
 ============================================================================================ */
 
-.upcoming_events_area {
-  padding: 120px 0 80px;
-  background: url("../img/decrypt.jpeg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  .main_title{
-    h1{
-      color: $white;
-    }
-  }
-}
-
-.new_events_item {
+.about_us_area {
   position: relative;
-  display: inline-block;
-  margin-bottom: 40px;
-  img{
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-  }
-  &:hover {
-    .upcoming_title {
-      @include gradient(to right, $primary-color 0%, $primary-color2 100%);
-      a {
-        color: $white;
-      }
-    }
-  }
-  .upcoming_title {
+}
+
+.about_content {
+  position: relative;
+  &:before {
+    content: "";
     position: absolute;
-    background: transparentize($header-color, 0.3);
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-    @include transition();
-    h3 {
-      font-size: 18px;
-      margin: 0;
-      padding: 20px;
-      @include transition();
-      a {
-        color: $white;
-      }
-    }
+    height: 100%;
+    width: 89%;
+    top: 0;
+    left: 0;
+    @include gradient(to right, $header-color 0%, $header-color 100%);
   }
 }
 
-/* End Upcoming Games Area css
+/* End About Us Area css
 ============================================================================================ */
 
 /* Start Recent Update Area css
 ============================================================================================ */
 
 .recent_update_area {
-  background: url(../img/decrypt.jpeg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
   &.made_white {
     background: $white;
   }

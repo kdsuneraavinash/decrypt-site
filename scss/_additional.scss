@@ -1,25 +1,3 @@
-/* Start About Us Area css
-============================================================================================ */
-
-.about_us_area {
-    position: relative;
-}
-
-.about_content {
-    position: relative;
-    &:before {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 89%;
-        top: 0;
-        left: 0;
-        @include gradient2(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
-    }
-}
-
-/* End About Us Area css
-============================================================================================ */
 
 
 /* Start Gallery Area css
