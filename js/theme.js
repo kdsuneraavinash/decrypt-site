@@ -127,32 +127,4 @@
     }
     projects_isotope();
 
-
-    /*----------------------------------------------------*/
-    /*  Testimonials Slider
-    /*----------------------------------------------------*/
-    function testimonials_slider() {
-        let testiSlider = $('.testi_slider');
-        if (testiSlider.length) {
-            testiSlider.owlCarousel({
-                loop: true,
-                items: 1,
-                nav: false,
-                autoplay: true,
-                smartSpeed: 500,
-                dots: false,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    768: {
-                        items: 1,
-                    },
-                }
-            })
-        }
-    }
-    testimonials_slider();
-
 })(jQuery)

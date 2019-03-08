@@ -72,8 +72,7 @@
 		width: 25px;
 		height: 3px;
 		background: #fff;
-		margin: auto;
-		margin-bottom: 4px;
+		margin: auto auto 4px;
 		transition: all 400ms linear;
 		cursor: pointer;
 	}
@@ -84,6 +83,7 @@
     .nav{
         padding: 0 0;
     }
+	//noinspection CssInvalidHtmlTagReference
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 117px;
 	}
@@ -110,6 +110,7 @@
 	.header_area .navbar .nav .nav-item {
 		margin-right: 0;
 	}
+	//noinspection CssInvalidHtmlTagReference
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
 	}
@@ -124,27 +125,6 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
-	/* Blog page Area css
-	============================================================================================ */
-	.categories_post img{
-        width: 100%;
-    }
-	.categories_post {
-		max-width: 360px;
-		margin: 0 auto;
-	}
-	.blog_categorie_area .col-lg-4{
-        margin-top: 30px;
-    }
-    .blog_area{
-        padding-bottom: 80px;
-    }
-    .single-post-area .blog_right_sidebar{
-        margin-top: 30px;
-    }
-	/* End Blog page Area css
-	============================================================================================ */
-	
 	/* Contact Page Area css
 	============================================================================================ */
 	.contact_info{
@@ -177,30 +157,11 @@
 	.left_side_text {
 		margin-bottom: 50px;
 	}
-	.price_item {
-		max-width: 360px;
-		margin: 0 auto 30px; 
-	}
-	.price_inner{
-		margin-bottom: -30px;
-	}
 }
 @media (max-width:767px){
 	.home_banner_area .banner_inner .banner_content {
 		margin-top: 0;
 	}
-	/* Blog Page Area css
-	============================================================================================ */
-    .blog_banner .banner_inner .blog_b_text h2 {
-		font-size: 40px;
-		line-height: 50px;
-	}
-	.blog_info.text-right{
-		text-align: left !important;
-		margin-bottom: 10px;
-	}
-	/* End Blog Page Area css
-	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content h3 {
 		font-size: 30px;
 	}
@@ -240,6 +201,7 @@
 	
 }
 @media (max-width:575px){
+	//noinspection CssInvalidHtmlTagReference
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
 	}
@@ -254,9 +216,6 @@
 	}
 	.home_banner_area .banner_inner {
 		min-height: 450px;
-	}
-	.blog_banner .banner_inner .blog_b_text {
-		margin-top: 0;
 	}
 	.home_banner_area .banner_inner .banner_content img{
 		display: none;
@@ -280,19 +239,7 @@
 	}
 	/* End Elements Area css
 	============================================================================================ */
-	
-	/* Blog Page Area css
-	============================================================================================ */
-	.blog_details h2 {
-		font-size: 20px;
-		line-height: 30px;
-	}
-	.blog_banner .banner_inner .blog_b_text h2 {
-		font-size: 28px;
-		line-height: 38px;
-	}
-	/* End Blog Page Area css
-	============================================================================================ */
+
 	/* Footer Area css
 	============================================================================================ */
 	.footer-area {
@@ -331,23 +278,6 @@
 	.banner_area .banner_inner .banner_content h2 {
 		font-size: 32px;
 	}
-	/* Blog Page Area css
-	============================================================================================ */
-	.comments-area .thumb {
-		margin-right: 10px;
-	}
-	/* End Blog Page Area css
-	============================================================================================ */
-	.testi_item .media .d-flex {
-		padding-right: 0;
-	}
-	.testi_item .media .d-flex img {
-		width: auto;
-		margin-bottom: 15px;
-	}
-	.testi_item .media{
-		display: block;
-	}
 }
 
 // Home Page Responsive
@@ -361,14 +291,6 @@
 			line-height: 38px;
 		}
 	}
-	
-	.blog_area {
-		.blog_content {
-			.date a {
-				margin-right: 22px !important;
-			}
-		}
-	} 
 
 	.about_page, .upcoming_games {
 		.about_us_area {
@@ -403,9 +325,6 @@
 	.main_title {
 		margin-bottom: 50px;
 	}
-	.pricing_area {
-		padding: 80px 0 50px;
-	}
 	.gallery_area {
 		padding: 80px 0 50px;
 	}
@@ -424,9 +343,6 @@
 	}
 	.chart_img {
 		display: none;
-	}
-	.testi_item {
-		margin-bottom: 0;
 	}
 	.frequently_area {
 		.main_title h2 {
@@ -540,23 +456,6 @@
 	.gallery_area {
 		padding: 70px 0 40px;
 	}
-	.testi_item {
-		margin-bottom: 0;
-		p {
-			font-size: 14px;
-		}
-		.list {
-			margin-bottom: 30px;
-		}
-		h4 {
-			margin-top: 10px;
-		}
-	}
-	.pricing_area {
-		&.section_gap {
-			padding: 70px 0 40px;
-		}
-	}
 	.frequently_area {
 		.main_title {
 			margin-bottom: 10px;
@@ -586,22 +485,6 @@
 				font-size: 28px;
 			}
 		}
-	}
-	
-	.blog_area {
-		padding: 70px 0;
-		.blog_items {
-			margin-bottom: 20px;
-			.blog_content {
-				p {
-					padding: 15px 0 30px;
-				}
-				.date a {
-					margin-right: 20px;
-				}
-			}
-		}
-		
 	}
 
 	.footer_area {
@@ -708,19 +591,7 @@
 			}
 		}
 	}
-	
-	.testi_item {
-		margin-bottom: 0;
-		p {
-			font-size: 12px;
-		}
-		.list {
-			margin-bottom: 25px;
-		}
-		h4 {
-			margin-top: 10px;
-		}
-	}
+
 	.frequently_area {
 		.main_title {
 			margin-bottom: 30px;
@@ -763,28 +634,6 @@
 				font-size: 10px !important;
 			}
 		}
-	}
-
-	.pricing_area {
-		&.section_gap {
-			padding: 40px 0 15px;
-		}
-	}
-	
-	.blog_area {
-		padding: 20px 0 40px;
-		.blog_items {
-			margin-bottom: 20px;
-			.blog_content {
-				p {
-					padding: 12px 0 20px;
-				}
-				.date a {
-					margin-right: 20px;
-				}
-			}
-		}
-		
 	}
 
 	.footer_area {

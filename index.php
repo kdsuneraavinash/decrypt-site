@@ -99,15 +99,14 @@
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
+									<img class="img-fluid" src="img/events/ideathon.jpg" alt="">
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="section_content">
 									<h6>Ideathon</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
+									<h1>Every problem is<br/> an opportunity for a creative mind.</h1>
+									<p>Ideathon is for those creative minds full of innovative ideas. Get your team ready and register now for a journey of knowledge and excellence.</p>
 									<a class="primary_btn" href="#">Learn More</a>
 								</div>
 							</div>
@@ -117,16 +116,15 @@
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
+									<img class="img-fluid" src="img/events/escape.jpg" alt="">
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="section_content">
 									<h6>Escape Room</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
-									<a class="primary_btn" href="#">Learn More</a>
+									<h1>We all need a little escape from reality once in a while.</h1>
+									<p>Experience the art of problem solving on a whole new level with the CSE Escape Room.
+                                    Register now for a unique experience of fun adventure.</p>
 								</div>
 							</div>
 						</div>
@@ -135,16 +133,16 @@
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
+									<img class="img-fluid" src="img/events/game.jpg" alt="">
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="section_content">
 									<h6>Gaming Competition</h6>
-									<h1>All work and no play makes you dull...</h1>
-									<p>That's exactly why we have a gaming competition for you! Join us to show off your masterhood with
-                                        <strong>Decrypt Gaming Competition</strong>.</p>
-									<a class="primary_btn" href="#">Learn More</a>
+									<h1>All work and <br/>no play makes you dull...</h1>
+									<p>That's exactly why we have a gaming competition for you!<br/>
+                                        Join us to show off your masterhood with
+                                        Decrypt Gaming Competition.</p>
 								</div>
 							</div>
 						</div>
@@ -153,7 +151,7 @@
                         <div class="row recent_update_text">
                             <div class="col-lg-6">
                                 <div class="chart_img">
-                                    <img class="img-fluid" src="img/recent_up.png" alt="">
+                                    <img class="img-fluid" src="img/events/workshop.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -162,7 +160,6 @@
                                     <h1>We Believe that <br>Interior beauty Lasts Long</h1>
                                     <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
                                         especially in the workplace. That’s why it’s crucial that as women.</p>
-                                    <a class="primary_btn" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +168,7 @@
                         <div class="row recent_update_text">
                             <div class="col-lg-6">
                                 <div class="chart_img">
-                                    <img class="img-fluid" src="img/recent_up.png" alt="">
+                                    <img class="img-fluid" src="img/events/coding.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -180,7 +177,6 @@
                                     <h1>We Believe that <br>Interior beauty Lasts Long</h1>
                                     <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
                                         especially in the workplace. That’s why it’s crucial that as women.</p>
-                                    <a class="primary_btn" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +185,7 @@
                         <div class="row recent_update_text">
                             <div class="col-lg-6">
                                 <div class="chart_img">
-                                    <img class="img-fluid" src="img/recent_up.png" alt="">
+                                    <img class="img-fluid" src="img/events/exhibition.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -198,7 +194,6 @@
                                     <h1>We Believe that <br>Interior beauty Lasts Long</h1>
                                     <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
                                         especially in the workplace. That’s why it’s crucial that as women.</p>
-                                    <a class="primary_btn" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>

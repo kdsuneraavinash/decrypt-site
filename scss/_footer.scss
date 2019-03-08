@@ -2,15 +2,15 @@
 ============================================================================================ */
 
 .footer_area {
-    @include gradient2(to right, #000 0%, #000 51%, #000 100%);
+    @include gradient2(to right, $header-color 0%, $header-color 51%, $header-color 100%);
     .f_widget {
         .f_title {
             margin-bottom: 40px;
             h4 {
-                color: #fff;
+                color: $white;
                 font-size: 18px;
                 font-weight: 600;
-                margin-bottom: 0px;
+                margin-bottom: 0;
             }
         }
         ul {
@@ -37,7 +37,7 @@
         text-align: center;
         p {
             margin: 0;
-            color: #fff;
+            color: $white;
             margin-left: -15px;
             a {
                 color: $primary-color;
