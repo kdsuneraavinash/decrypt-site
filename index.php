@@ -9,7 +9,7 @@
             display: inline-block;
             width: 10px;
             height: 0.7em;
-            background-color: yellow;
+            background-color: green;
         }
     </style>
     <title>Decrypt 2.0</title>
@@ -181,7 +181,7 @@
                                         <p>That's exactly why we have a gaming competition for you!<br/>
                                             Join us to show off your masterhood with
                                             Decrypt Gaming Competition.</p>
-                                        <a class="primary_btn" href="ideathon.html">Learn More</a>
+                                        <a class="primary_btn" href="gamingcompetition.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>
