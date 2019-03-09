@@ -123,6 +123,19 @@
   }
 }
 
+.escaperoom_facts{
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: $title-font;
+  font-weight: 600;
+  color: $white;
+
+  strong{
+    color: red;
+  }
+}
+
 #lightgallery{
   a{
     img{

@@ -729,6 +729,16 @@ img {
       bottom: 20px;
       right: 20px; }
 
+.escaperoom_facts {
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 600;
+  color: #fff; }
+  .escaperoom_facts strong {
+    color: red; }
+
 #lightgallery a img {
   width: 400px;
   height: auto;
