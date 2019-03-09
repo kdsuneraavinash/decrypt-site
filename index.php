@@ -28,7 +28,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="home_left_img">
-                                <img class="img-fluid" src="img/banner/home-left.png" alt="">
+                                <img class="img-fluid" src="img/logo/decrypt_lock.png" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 p-0">
@@ -45,7 +45,7 @@
                                         <span></span>
                                     </a>
                                     <div class="watch_video text-uppercase">
-                                        watch the video
+                                        watch the intro video
                                     </div>
                                 </div>
                             </div>
@@ -68,12 +68,12 @@
                             <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher
                                 conduct standards
                                 especially in the workplace. That’s why it’s crucial that as women.</p>
-                            <a class="primary_btn text-white" href="#">Learn More</a>
+                            <a class="primary_btn text-white" href="https://www.facebook.com/DecryptUoM/" target="_blank">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-in" data-aos-delay="300">
                         <div class="about_us_image_box justify-content-center">
-                            <img class="img-fluid w-100" src="img/events/decrypt.png" alt="">
+                            <img class="img-fluid w-100" src="img/events/decrypt.jpg" alt="">
                         </div>
                     </div>
                 </div>
