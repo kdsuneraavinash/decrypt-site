@@ -3,7 +3,7 @@
 
 <head>
     <?php include 'header.php' ?>
-    <title>Decrypt 2.0</title>
+    <title>Decrypt 2.0 Gaming Competition</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
             <div class="d-flex align-items-center my-5 py-5">
                 <div class="container">
                     <div class="text-center">
-                        <h1>ESCAPE ROOM</h1>
+                        <h1>GAMING COMPETITION/h1>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <h3><strong>What is an EscapeRoom?</strong></h3>
+                        <h3><strong>What about Gaming Competition?</strong></h3>
                         <p>
                             Lorem ipsum
                         </p>
