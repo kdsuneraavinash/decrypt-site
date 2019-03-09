@@ -101,6 +101,31 @@
     </div>
 </section>
 
+<section class="bg_decrypt section_gap">
+    <div class="container">
+        <div class="d-flex align-items-center mb-5 pb-5" data-aos="fade-up">
+            <div class="container">
+                <div class="text-center text-white">
+                    <h2>Registration</h2>
+                </div>
+            </div>
+        </div>
+        <div class="additional_links text-center">
+            <div class="mt-5" data-aos="fade-up">
+                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Download Ruleset&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>
+            </div>
+            <div class="mt-5" data-aos="fade-up">
+                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>
+            </div>
+            <p data-aos="fade-up">Registration closes on <strong>25th of March</strong></p>
+        </div>
+    </div>
+</section>
+
 <!--================Contact info============-->
 <div class="contacts_parallax">
     <div class="inner">
