@@ -31,7 +31,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #777777;
-  background: #0D141A; }
+  background: #0D141A;
+  overflow-x: hidden; }
 
 .bg_decrypt {
   background-image: url(../img/decrypt.jpeg);
@@ -727,6 +728,21 @@ img {
     .profile-card:hover .profile-content:after {
       bottom: 20px;
       right: 20px; }
+
+.escaperoom_facts {
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 600;
+  color: #fff; }
+  .escaperoom_facts strong {
+    color: red; }
+
+#lightgallery a img {
+  width: 400px;
+  height: auto;
+  object-fit: cover; }
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
