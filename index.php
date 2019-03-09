@@ -162,6 +162,7 @@
                                         <p>Experience the art of problem solving on a whole new level with the CSE
                                             Escape Room.
                                             Register now for a unique experience of fun adventure.</p>
+                                        <a class="primary_btn" href="escaperoom.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -180,6 +181,7 @@
                                         <p>That's exactly why we have a gaming competition for you!<br/>
                                             Join us to show off your masterhood with
                                             Decrypt Gaming Competition.</p>
+                                        <a class="primary_btn" href="ideathon.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -188,7 +190,7 @@
                             <div class="row recent_update_text">
                                 <div class="col-lg-6">
                                     <div class="chart_img">
-                                        <img class="img-fluid" src="img/events/workshop.png" alt="">
+                                        <img class="img-fluid" src="img/events/workshop.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -196,6 +198,7 @@
                                         <h6>Workshop</h6>
                                         <h1>Scared of PA1 & PA2?</h1>
                                         <p>Don't worry, we got you! Learn how to tackle your coding problems with the Decrypt Workshop. </p>
+                                        <a class="primary_btn" href="workshop.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -212,6 +215,7 @@
                                         <h6>Coding Competition</h6>
                                         <h1>Talk is cheap.. <br/>Show me the code!</h1>
                                         <p>Show off your coding expertise with Coding Competition! Register your team today itself.</p>
+                                        <a class="primary_btn" href="codingcompetition.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -228,6 +232,7 @@
                                         <h6>Decrypt Exhibition</h6>
                                         <h1>Caution!<br/>Computer Engineers in their natural habitat.. </h1>
                                         <p>Get a sneak peek of the Department of CSE with the Decrypt Exhibition. Come, See, Enjoy!</p>
+                                        <a class="primary_btn" href="exhibition.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>
