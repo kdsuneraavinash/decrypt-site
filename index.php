@@ -71,7 +71,7 @@
                             <a class="primary_btn text-white" href="https://www.facebook.com/DecryptUoM/" target="_blank">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-lg-6" data-aos="fade-in" data-aos-delay="300">
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                         <div class="about_us_image_box justify-content-center">
                             <img class="img-fluid w-100" src="img/events/decrypt.jpg" alt="">
                         </div>
@@ -176,7 +176,7 @@
                                 <div class="col-lg-6">
                                     <div class="section_content">
                                         <h6>Gaming Competition</h6>
-                                        <h1>All work and <br/>no play makes you dull...</h1>
+                                        <h1>All work and <br/>no play makes you a dull boy.. </h1>
                                         <p>That's exactly why we have a gaming competition for you!<br/>
                                             Join us to show off your masterhood with
                                             Decrypt Gaming Competition.</p>
@@ -194,10 +194,8 @@
                                 <div class="col-lg-6">
                                     <div class="section_content">
                                         <h6>Workshop</h6>
-                                        <h1>We Believe that <br>Interior beauty Lasts Long</h1>
-                                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women
-                                            face higher conduct standards
-                                            especially in the workplace. That’s why it’s crucial that as women.</p>
+                                        <h1>Scared of PA1 & PA2?</h1>
+                                        <p>Don't worry, we got you! Learn how to tackle your coding problems with the Decrypt Workshop. </p>
                                     </div>
                                 </div>
                             </div>
@@ -212,10 +210,8 @@
                                 <div class="col-lg-6">
                                     <div class="section_content">
                                         <h6>Coding Competition</h6>
-                                        <h1>We Believe that <br>Interior beauty Lasts Long</h1>
-                                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women
-                                            face higher conduct standards
-                                            especially in the workplace. That’s why it’s crucial that as women.</p>
+                                        <h1>Talk is cheap.. <br/>Show me the code!</h1>
+                                        <p>Show off your coding expertise with Coding Competition! Register your team today itself.</p>
                                     </div>
                                 </div>
                             </div>
@@ -230,10 +226,8 @@
                                 <div class="col-lg-6">
                                     <div class="section_content">
                                         <h6>Decrypt Exhibition</h6>
-                                        <h1>We Believe that <br>Interior beauty Lasts Long</h1>
-                                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women
-                                            face higher conduct standards
-                                            especially in the workplace. That’s why it’s crucial that as women.</p>
+                                        <h1>Caution!<br/>Computer Engineers in their natural habitat.. </h1>
+                                        <p>Get a sneak peek of the Department of CSE with the Decrypt Exhibition. Come, See, Enjoy!</p>
                                     </div>
                                 </div>
                             </div>

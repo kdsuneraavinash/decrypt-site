@@ -234,35 +234,62 @@
         </div>
         <div class="text-center">
             <div id="lightgallery">
-                <a href="img/gallery_img1.png">
-                    <img src="img/gallery_img1.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_1.jpg">
+                    <img src="img/ideathon/img_1.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img2.png">
-                    <img src="img/gallery_img2.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_2.jpg">
+                    <img src="img/ideathon/img_2.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img1.png">
-                    <img src="img/gallery_img1.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_3.jpg">
+                    <img src="img/ideathon/img_3.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img2.png">
-                    <img src="img/gallery_img2.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_4.jpg">
+                    <img src="img/ideathon/img_4.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img1.png">
-                    <img src="img/gallery_img1.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_5.jpg">
+                    <img src="img/ideathon/img_5.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img2.png">
-                    <img src="img/gallery_img2.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_6.jpg">
+                    <img src="img/ideathon/img_6.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img1.png">
-                    <img src="img/gallery_img1.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_7.jpg">
+                    <img src="img/ideathon/img_7.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img2.png">
-                    <img src="img/gallery_img2.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_8.jpg">
+                    <img src="img/ideathon/img_8.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img2.png">
-                    <img src="img/gallery_img2.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_9.jpg">
+                    <img src="img/ideathon/img_9.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/gallery_img2.png">
-                    <img src="img/gallery_img2.png" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_10.jpg">
+                    <img src="img/ideathon/img_10.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_11.jpg">
+                    <img src="img/ideathon/img_11.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_12.jpg">
+                    <img src="img/ideathon/img_12.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_13.jpg">
+                    <img src="img/ideathon/img_13.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_14.jpg">
+                    <img src="img/ideathon/img_14.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_15.jpg">
+                    <img src="img/ideathon/img_15.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_16.jpg">
+                    <img src="img/ideathon/img_16.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_17.jpg">
+                    <img src="img/ideathon/img_17.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_18.jpg">
+                    <img src="img/ideathon/img_18.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_19.jpg">
+                    <img src="img/ideathon/img_19.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
             </div>
         </div>
@@ -275,6 +302,7 @@
 
 <script>
 
+    // DO NOT CHANGE SVG INFORMATION
     let timeline_bg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' " +
         "stroke='%23383212' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 " +
         "493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath " +
@@ -287,6 +315,7 @@
         "cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle " +
         "cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E";
 
+    // DO NOT CHANGE SVG INFORMATION
     let contact_bg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='2000' viewBox='0 0 800 800'%3E%3Cg fill='none' %3E%3Cg " +
         "stroke='%23026' stroke-width='17'%3E%3Cline x1='-8' y1='-8' x2='808' y2='808'/%3E%3Cline x1='-8' y1='792' x2='808' y2='1608'/%3E%3Cline x1='-8' " +
         "y1='-808' x2='808' y2='8'/%3E%3C/g%3E%3Cg stroke='%23002163' stroke-width='16'%3E%3Cline x1='-8' y1='767' x2='808' y2='1583'/%3E%3Cline x1='-8' " +
@@ -317,6 +346,8 @@
         "x1='-8' y1='-383' x2='808' y2='433'/%3E%3C/g%3E%3Cg stroke='%23013' stroke-width='1'%3E%3Cline x1='-8' y1='392' x2='808' y2='1208'/%3E%3Cline " +
         "x1='-8' y1='-408' x2='808' y2='408'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E";
 
+
+    // Gallery Activation
     gallery = document.getElementById('lightgallery');
     lightGallery(gallery, {
         mode: 'lg-fade',
@@ -330,6 +361,8 @@
         $(".navbar").show();
     });
 
+
+    // Parallax
     $(document).ready(function () {
         $('.timeline_parallax').parallax({
             imageSrc:timeline_bg
