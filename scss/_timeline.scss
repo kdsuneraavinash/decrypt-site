@@ -11,13 +11,7 @@
   border-bottom: 10px solid transparent;
 }
 
-// - Timeline entry
-// - Produces the following:
-/* - &:nth-child(1) {
-			 grid-area: entry1;
-		 }
-   - useful timesaver if there is a lengthy list
-*/
+
 @mixin timeline-entry {
   @for $i from 1 through 5 {
     &:nth-child(#{$i}) {
@@ -31,11 +25,10 @@ $timeline-indicator-color: $header-color;
 $timeline-title-background-color: $header-color;
 
 .timeline-section{
-  background-color: white;
   padding-bottom: 30px;
 }
 
-//- Mobile First Timeline - stacked for small viewports and browsers that don't support grid
+
 .timeline {
   line-height: 1.5em;
   font-size: 14px;
@@ -60,17 +53,17 @@ $timeline-title-background-color: $header-color;
   position: relative;
 
   &__title {
+    line-height: 30px;
     color: white;
     @include transition;
     background-color: $header-color;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1em;
     letter-spacing: 2px;
     border-radius: 30px;
   }
 
   &__title:hover {
-    color: black;
     @include gradient( to right, $primary-color 0%, $primary-color2 51%);
   }
 
@@ -90,7 +83,6 @@ $timeline-title-background-color: $header-color;
     width: 3em;
     height: 3em;
     background-color: $timeline-title-background-color;
-    border: .2em solid white;
     border-radius: 50%;
     position: absolute;
     counter-increment: section;

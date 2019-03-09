@@ -143,7 +143,7 @@
                                         <h1>Every problem is<br/> an opportunity for a creative mind.</h1>
                                         <p>Ideathon is for those creative minds full of innovative ideas. Get your team
                                             ready and register now for a journey of knowledge and excellence.</p>
-                                        <a class="primary_btn" href="#">Learn More</a>
+                                        <a class="primary_btn" href="ideathon.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -260,20 +260,50 @@
         cursor: "<span class='cursor'></span>"
     });
 
-    typewriter
-        .deleteAll()
-        .typeString('Hello World!')
-        .pauseFor(2500)
-        .deleteAll()
-        .typeString('It is time to DECRYPT')
-        .pauseFor(2500)
-        .start();
+    function shuffle(a) {
+        var j, x, i;
+        for (i = a.length - 1; i > 0; i--) {
+            j = Math.floor(Math.random() * (i + 1));
+            x = a[i];
+            a[i] = a[j];
+            a[j] = x;
+        }
+        return a;
+    }
+
+    let messages = ["Be prepared to have your mind blown",
+    "We raise the bar for intellectual fun",
+    "Sit back, relax and think",
+    "We guarantee a fun packed day",
+    "No day like today to learn something new",
+    "Brain food is the best food",
+    "Too many reasons to not , not come",
+    "You will leave less confused of your future",
+    "Inspired by purpose driven by passion",
+    "Bring your creative dreams to life",
+    "Nobody knows where the creativity starts we call it decrypt",
+    "You better buckle up coz you are in for a roller coaster ride",
+    "Good happens here - We mix brains , passion and creativity to make people smile",
+    "Its never too late to start building your brand",
+    "We are craftsmen of fun filled partaker experiences ",
+    "Creativity is intelligence having fun"];
+
+    shuffle(messages);
+
+    typewriter = typewriter.deleteAll()
+
+    for (let i = 0; i < messages.length; i++) {
+        typewriter = typewriter.typeString(messages[i]).pauseFor(1500).deleteAll();
+    }
+
+    typewriter.start();
 
     $(document).ready(function () {
         $('.parallax').parallax({
             imageSrc: 'img/decrypt.jpeg'
         });
     });
+
 </script>
 </body>
 </html>
