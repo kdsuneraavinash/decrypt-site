@@ -112,12 +112,12 @@
         </div>
         <div class="additional_links text-center">
             <div class="mt-5" data-aos="fade-up">
-                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
                     &nbsp;&nbsp;&nbsp;&nbsp;Download Ruleset&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>
             <div class="mt-5" data-aos="fade-up">
-                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>

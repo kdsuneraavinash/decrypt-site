@@ -26,44 +26,47 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <h3><strong>What about Gaming Competition?</strong></h3>
+
+                        <h3><strong>What is (name of competition)?</strong></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat diam quis ligula
-                            sodales sagittis. Fusce vitae dui magna. Etiam in ex non velit fermentum dictum quis quis
-                            velit. Sed dictum, ligula at sollicitudin consectetur, nisi libero venenatis ligula, eget
-                            ullamcorper sapien urna eget diam. Sed blandit, arcu a mollis fringilla, libero justo
-                            scelerisque diam, quis laoreet ipsum diam eget purus. Donec pellentesque volutpat cursus.
-                            Donec consequat congue turpis, et eleifend enim sagittis eu. Nulla facilisi. Donec id
-                            pulvinar magna. Etiam in euismod ipsum, semper varius mauris. Integer nec ex ac erat mollis
-                            porttitor.
+                            (name of competition) is an e-gaming competition to make a fun and relaxing change in
+                            your monotonous life. With a variety of your favourite PC and X box games,
+                            it will surely capture the heart and soul of any gaming enthusiast!
                         </p>
                         <br/>
+
+                        <h3><strong>What are the games included?</strong></h3>
+                        <p>
+                        (list of games)
+                        </p>
+                        <br/>
+
                         <h3><strong>Who can participate?</strong></h3>
                         <p>
-                            Nulla vulputate purus nec felis lobortis iaculis. Maecenas egestas iaculis urna in feugiat.
-                            Mauris turpis quam, auctor ac rutrum eget, feugiat eget metus. Integer sagittis facilisis
-                            nibh ac ornare. Aenean vestibulum orci augue. Suspendisse eleifend massa diam, non
-                            consectetur sem consequat quis. Ut ultricies, magna nec porta bibendum, dolor ligula lacinia
-                            nulla, nec lobortis nibh mauris ac massa. Vivamus vitae auctor magna. Praesent mi purus,
-                            maximus nec feugiat vel, facilisis quis nisl. Duis non finibus justo. Ut posuere leo id
-                            risus pulvinar, pellentesque maximus tellus volutpat. Proin sed turpis condimentum est
-                            maximus lobortis. Nam non tortor enim. Curabitur at ultrices quam, sed pulvinar justo. Donec
-                            et sapien maximus, dignissim mauris elementum, tincidunt risus.
+                            Teams consisting of (no. of players) players.
+                            All players should be students of University of Moratuwa.
                         </p>
                         <br/>
+
+                        <h3><strong>Why should you participate?</strong></h3>
+                        <p>
+                        Do we really have to explain that? Because you love gaming, duh!
+                        </p>
+                        <br/>
+
                         <h3><strong>What do you get by participating?</strong></h3>
                         <p>
-                            Mauris porta magna eu leo bibendum, in volutpat dui varius. Maecenas lacinia lacus non
-                            rhoncus hendrerit. Duis varius laoreet est eget egestas. Integer aliquam, ex vehicula
-                            consequat posuere, odio nunc scelerisque libero, at vestibulum neque sem vel erat. Nunc vel
-                            ullamcorper metus, eu placerat lectus. Vivamus fringilla suscipit nunc, id commodo augue
-                            semper at. Aliquam aliquet sit amet ex nec ultrices. Nam nunc lectus, ultrices non
-                            vestibulum id, placerat ut nunc. Phasellus commodo condimentum vestibulum. Proin massa
-                            risus, pulvinar et tortor sodales, malesuada vehicula ligula. Etiam sit amet nisl sed metus
-                            vehicula semper. Nunc condimentum lorem quis varius scelerisque. Pellentesque ac aliquam
-                            nulla, at rhoncus felis. Phasellus auctor ligula et ultrices sagittis. Sed efficitur ligula
-                            et lobortis pulvinar.
+                        This will be an amazing opportunity for you to relax and restore your mental health.
+                            You also get to test your gaming skills against your peers. Winning (name of competition)
+                            will definitely give you a well earned right to boast! And of course, exciting cash prizes
+                            await the winners!
                         </p>
+                        <br/>
+
+                        <p><strong>
+                        PS: A little bit of practicing beforehand will not do you any harm..
+                                It's not always that you get such a good excuse to keep gaming!
+                        </strong></p>
                     </div>
 
                     <div class="col-md-2"></div>
@@ -110,12 +113,12 @@
         </div>
         <div class="additional_links text-center">
             <div class="mt-5" data-aos="fade-up">
-                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
                     &nbsp;&nbsp;&nbsp;&nbsp;Download Ruleset&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>
             <div class="mt-5" data-aos="fade-up">
-                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>
@@ -194,15 +197,6 @@
         </div>
         <div class="text-center">
             <div id="lightgallery">
-                <a href="img/gaming/img_1.jpg">
-                    <img src="img/gaming/img_1.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/gaming/img_2.jpg">
-                    <img src="img/gaming/img_2.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/gaming/img_3.jpg">
-                    <img src="img/gaming/img_3.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
                 <a href="img/gaming/img_4.jpg">
                     <img src="img/gaming/img_4.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
@@ -211,9 +205,6 @@
                 </a>
                 <a href="img/gaming/img_6.jpg">
                     <img src="img/gaming/img_6.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/gaming/img_7.jpg">
-                    <img src="img/gaming/img_7.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
                 <a href="img/gaming/img_8.jpg">
                     <img src="img/gaming/img_8.jpg" class="hvr-shrink" alt="Gallery"/>

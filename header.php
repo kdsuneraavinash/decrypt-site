@@ -2,6 +2,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="theme-color" content="#000000" />
+<meta name="description" content="Decrypt 2.0, the CSE Open Day and exhibition is here to dazzle your minds. Join us to learn all about CSE and have fun!"/>
 <link rel="icon" href="favicon.png" type="image/png">
 
 <!-- Bootstrap CSS -->

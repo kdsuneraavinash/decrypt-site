@@ -61,10 +61,10 @@ $timeline-title-background-color: $header-color;
     padding: 1em;
     letter-spacing: 2px;
     border-radius: 30px;
-  }
 
-  &__title:hover {
-    @include gradient( to right, $primary-color 0%, $primary-color2 51%);
+    &:hover {
+      @include gradient( to right, $primary-color 0%, $primary-color2 51%);
+    }
   }
 
   &__detail {
@@ -73,6 +73,8 @@ $timeline-title-background-color: $header-color;
     color: #000;
     font-size: 1.5em;
     font-weight: 400;
+    width: 300px;
+    text-align: left;
   }
 
   //- number indicator
@@ -101,7 +103,7 @@ $timeline-title-background-color: $header-color;
 }
 
 
-$tablet-width: 768px;
+$tablet-width: 1000px;
 @mixin tablet-up {
   @media (min-width: #{$tablet-width}) {
     @content;

@@ -15,7 +15,7 @@
 
         <div class="single-footer-widget">
             <div class="copy_right_text text-center">
-                <p>Copyright &copy;2019 All rights reserved | Department of Computer Science &amp; Engineering</p>
+                <p>Copyright &copy;2019 All rights reserved | Department of Computer Science &amp; Engineering <br/> University of Moratuwa</p>
             </div>
         </div>
     </div>

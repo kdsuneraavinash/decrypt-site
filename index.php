@@ -64,11 +64,11 @@
                     <div class="col-lg-6" data-aos="fade-in">
                         <div class="section_content">
                             <h6>Decrypt 2.0</h6>
-                            <h1>We Believe that <br>Interior beauty Lasts Long</h1>
-                            <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct standards
-                                especially in the workplace. That’s why it’s crucial that as women.</p>
-                            <a class="primary_btn text-white" href="https://www.facebook.com/DecryptUoM/" target="_blank">Learn More</a>
+                            <h1>It's time to Decrypt!</h1>
+                            <p>
+                                Decrypt 2.0, the CSE Open Day and exhibition is here to dazzle your minds.<br/>
+                                Join us to learn all about CSE and have fun!</p>
+                            <a class="primary_btn text-white" id="decrypt_learnmore">Show Events</a>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
@@ -82,7 +82,7 @@
 
 
         <!--================Start Recent Update Area =================-->
-        <section class="recent_update_area py-4">
+        <section class="recent_update_area py-4" id="recent_update_area">
             <div class="container">
                 <div class="recent_update_inner">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -270,26 +270,22 @@
         return a;
     }
 
-    let messages = ["Be prepared to have your mind blown",
-    "We raise the bar for intellectual fun",
-    "Sit back, relax and think",
-    "We guarantee a fun packed day",
-    "No day like today to learn something new",
-    "Brain food is the best food",
-    "Too many reasons to not , not come",
-    "You will leave less confused of your future",
-    "Inspired by purpose driven by passion",
-    "Bring your creative dreams to life",
-    "Nobody knows where the creativity starts we call it decrypt",
-    "You better buckle up coz you are in for a roller coaster ride",
-    "Good happens here - We mix brains , passion and creativity to make people smile",
-    "Its never too late to start building your brand",
-    "We are craftsmen of fun filled partaker experiences ",
-    "Creativity is intelligence having fun"];
+    let messages = [
+        "Get ready to decrypt!",
+        "Be prepared to have your mind blown",
+        "Sit back, relax and think",
+        "We guarantee a fun packed day",
+        "No day like today to learn something new",
+        "Too many reasons to not, not come",
+        "Inspired by purpose driven by passion",
+        "Bring your creative dreams to life",
+        "Its never too late to start building your brand",
+        "Creativity is intelligence having fun"
+    ];
 
     shuffle(messages);
 
-    typewriter = typewriter.deleteAll()
+    typewriter = typewriter.deleteAll();
 
     for (let i = 0; i < messages.length; i++) {
         typewriter = typewriter.typeString(messages[i]).pauseFor(1500).deleteAll();
@@ -302,6 +298,15 @@
             imageSrc: 'img/decrypt.jpeg'
         });
     });
+
+    $("#decrypt_learnmore").click(function () {
+        let offset = $("#recent_update_area").offset();
+        offset.top -= 75;
+        $('html, body').animate({
+            scrollTop: offset.top
+        });
+
+    })
 
 </script>
 </body>

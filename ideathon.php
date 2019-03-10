@@ -102,33 +102,28 @@
                 <div class="timeline-wrapper">
                     <div class="timeline">
                         <dl class="timeline--entry">
-                            <dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>
-                            <dd class="timeline--entry__detail text-white" data-aos="zoom-in">Registration Opens for
-                                Ideathon
+                            <dt class="timeline--entry__title" data-aos="fade-in">12th March 2019</dt>
+                            <dd class="timeline--entry__detail text-white" data-aos="fade-in">Registration Opens
                             </dd>
                         </dl>
                         <dl class="timeline--entry">
-                            <dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>
-                            <dd class="timeline--entry__detail text-white" data-aos="zoom-in"> Registration Opens for
-                                Ideathon
+                            <dt class="timeline--entry__title" data-aos="fade-in">25th March 2019</dt>
+                            <dd class="timeline--entry__detail text-white" data-aos="zoom-in">Registration Closes
                             </dd>
                         </dl>
                         <dl class="timeline--entry">
-                            <dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>
-                            <dd class="timeline--entry__detail text-white" data-aos="zoom-in">Registration Opens for
-                                Ideathon
+                            <dt class="timeline--entry__title" data-aos="fade-in">28th March 2019</dt>
+                            <dd class="timeline--entry__detail text-white" data-aos="fade-in">Announcement of Finalists
                             </dd>
                         </dl>
                         <dl class="timeline--entry">
-                            <dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>
-                            <dd class="timeline--entry__detail text-white" data-aos="zoom-in">Registration Opens for
-                                Ideathon
+                            <dt class="timeline--entry__title" data-aos="fade-in">7th April 2019</dt>
+                            <dd class="timeline--entry__detail text-white" data-aos="fade-in">Workshop for Finalists
                             </dd>
                         </dl>
                         <dl class="timeline--entry">
-                            <dt class="timeline--entry__title" data-aos="zoom-in">7th March 2019</dt>
-                            <dd class="timeline--entry__detail text-white" data-aos="zoom-in">Registration Opens for
-                                Ideathon
+                            <dt class="timeline--entry__title" data-aos="fade-in">7th April 2019</dt>
+                            <dd class="timeline--entry__detail text-white" data-aos="fade-in">Ideathon final round
                             </dd>
                         </dl>
                     </div>
@@ -150,12 +145,12 @@
         </div>
         <div class="additional_links text-center">
             <div class="mt-5" data-aos="fade-up">
-                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
                     &nbsp;&nbsp;&nbsp;&nbsp;Download Ruleset&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>
             <div class="mt-5" data-aos="fade-up">
-                <a href="mailto:decrypt2.0@gmail.com" target="_blank" class="p-4">
+                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
                     Download Sample Proposal
                 </a>
             </div>
@@ -234,62 +229,29 @@
         </div>
         <div class="text-center">
             <div id="lightgallery">
-                <a href="img/ideathon/img_1.jpg">
-                    <img src="img/ideathon/img_1.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_2.jpg">
-                    <img src="img/ideathon/img_2.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_3.jpg">
-                    <img src="img/ideathon/img_3.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_4.jpg">
-                    <img src="img/ideathon/img_4.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_5.jpg">
-                    <img src="img/ideathon/img_5.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_6.jpg">
-                    <img src="img/ideathon/img_6.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_7.jpg">
-                    <img src="img/ideathon/img_7.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_8.jpg">
-                    <img src="img/ideathon/img_8.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_9.jpg">
-                    <img src="img/ideathon/img_9.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_10.jpg">
-                    <img src="img/ideathon/img_10.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_11.jpg">
-                    <img src="img/ideathon/img_11.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_12.jpg">
-                    <img src="img/ideathon/img_12.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_13.jpg">
-                    <img src="img/ideathon/img_13.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_14.jpg">
-                    <img src="img/ideathon/img_14.jpg" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_19.jpg">
+                    <img src="img/ideathon/img_19.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
                 <a href="img/ideathon/img_15.jpg">
                     <img src="img/ideathon/img_15.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/ideathon/img_16.jpg">
-                    <img src="img/ideathon/img_16.jpg" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_10.jpg">
+                    <img src="img/ideathon/img_10.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/ideathon/img_17.jpg">
-                    <img src="img/ideathon/img_17.jpg" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_1.jpg">
+                    <img src="img/ideathon/img_1.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/ideathon/img_18.jpg">
-                    <img src="img/ideathon/img_18.jpg" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_4.jpg">
+                    <img src="img/ideathon/img_4.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
-                <a href="img/ideathon/img_19.jpg">
-                    <img src="img/ideathon/img_19.jpg" class="hvr-shrink" alt="Gallery"/>
+                <a href="img/ideathon/img_6.jpg">
+                    <img src="img/ideathon/img_6.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_3.jpg">
+                    <img src="img/ideathon/img_3.jpg" class="hvr-shrink" alt="Gallery"/>
+                </a>
+                <a href="img/ideathon/img_2.jpg">
+                    <img src="img/ideathon/img_2.jpg" class="hvr-shrink" alt="Gallery"/>
                 </a>
             </div>
         </div>

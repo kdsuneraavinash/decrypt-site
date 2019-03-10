@@ -72,80 +72,12 @@
         </section>
     </div>
 </div>
-
-<section class="bg_decrypt section_gap">
-    <div class="container-fluid">
-        <div class="d-flex align-items-center mb-5 pb-5">
-            <div class="container">
-                <div class="text-center text-white">
-                    <h2>Decrypt Exhibition - 2018</h2>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <div id="lightgallery">
-                <a href="img/ideathon/img_1.jpg">
-                    <img src="img/ideathon/img_1.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_2.jpg">
-                    <img src="img/ideathon/img_2.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_3.jpg">
-                    <img src="img/ideathon/img_3.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_4.jpg">
-                    <img src="img/ideathon/img_4.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_5.jpg">
-                    <img src="img/ideathon/img_5.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_6.jpg">
-                    <img src="img/ideathon/img_6.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_7.jpg">
-                    <img src="img/ideathon/img_7.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_8.jpg">
-                    <img src="img/ideathon/img_8.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_9.jpg">
-                    <img src="img/ideathon/img_9.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_10.jpg">
-                    <img src="img/ideathon/img_10.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_11.jpg">
-                    <img src="img/ideathon/img_11.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-                <a href="img/ideathon/img_12.jpg">
-                    <img src="img/ideathon/img_12.jpg" class="hvr-shrink" alt="Gallery"/>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
 <!--================End Timeline =================-->
 
 <?php include 'footer.php' ?>
 <?php include 'scripts.php' ?>
 
 <script>
-
-    // Gallery Activation
-    gallery = document.getElementById('lightgallery');
-    lightGallery(gallery, {
-        mode: 'lg-fade',
-        cssEasing: 'cubic-bezier(0.25, 0, 0.25, 1)'
-    });
-
-    gallery.addEventListener('onAfterOpen', function() {
-        $(".navbar").hide();
-    });
-    gallery.addEventListener('onBeforeClose', function() {
-        $(".navbar").show();
-    });
-
-
     // Parallax
     $(document).ready(function () {
         $('.ideathon_parallax').parallax({
