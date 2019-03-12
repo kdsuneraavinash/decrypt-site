@@ -178,7 +178,7 @@
                         <div class="col-sm-6 col-md-4 hvr-shrink">
                             <div class="profile-card">
                                 <div class="profile-img">
-                                    <img src="img/team/gayal.jpg" alt="Team Image" height="500"/>
+                                    <img src="img/team/gayal.jpg" class="img-fluid" alt="Team Image"/>
                                 </div>
                                 <div class="profile-content">
                                     <h2 class="title">Gayal Dassanayake
@@ -190,7 +190,7 @@
                         <div class="col-sm-6 col-md-4 hvr-shrink">
                             <div class="profile-card">
                                 <div class="profile-img">
-                                    <img src="img/team/gamlath.jpeg" alt="Team Image" height="500"/>
+                                    <img src="img/team/gamlath.jpeg" class="img-fluid" alt="Team Image"/>
                                 </div>
                                 <div class="profile-content">
                                     <h2 class="title">Damika Gamlath
