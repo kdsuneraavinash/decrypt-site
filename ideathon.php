@@ -72,15 +72,15 @@
         <div class="row text-center">
             <div class="col-md-4 p-5 bg_prize hvr-grow-rotate">
                 <img src="img/winner.png" alt="First Place"/>
-                <div class="centered">First<br/> Rs 25,000</div>
+                <div class="centered">First<br/> Rs 15,000</div>
             </div>
             <div class="col-md-4 p-5 bg_prize hvr-grow-rotate">
                 <img src="img/winner.png" alt="Second Place"/>
-                <div class="centered">Second<br/> Rs 15,000</div>
+                <div class="centered">Second<br/> Rs 10,000</div>
             </div>
             <div class="col-md-4 p-5 bg_prize hvr-grow-rotate">
                 <img src="img/winner.png" alt="Third Place"/>
-                <div class="centered">Third<br/> Rs 10,000</div>
+                <div class="centered">Third<br/> Rs 7,500</div>
             </div>
         </div>
     </div>
@@ -145,12 +145,12 @@
         </div>
         <div class="additional_links text-center">
             <div class="mt-5" data-aos="fade-up">
-                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
+                <a href="assets/ruleset.pdf" target="_blank" class="p-4">
                     &nbsp;&nbsp;&nbsp;&nbsp;Download Ruleset&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>
             <div class="mt-5" data-aos="fade-up">
-                <a href="assets/placeholder.pdf" target="_blank" class="p-4">
+                <a href="assets/proposal.pdf" target="_blank" class="p-4">
                     Download Sample Proposal
                 </a>
             </div>
@@ -178,11 +178,11 @@
                         <div class="col-sm-6 col-md-4 hvr-shrink">
                             <div class="profile-card">
                                 <div class="profile-img">
-                                    <img src="http://s1.1zoom.me/b5346/617/Sherlock_Holmes_Men_Benedict_Cumberbatch_518637_640x960.jpg" alt="Team Image"/>
+                                    <img src="img/team/gayal.jpg" alt="Team Image" height="500"/>
                                 </div>
                                 <div class="profile-content">
-                                    <h2 class="title">Henry Polles
-                                        <span>078 9966789</span>
+                                    <h2 class="title">Gayal Dassanayake
+                                        <span>071 819 5475</span>
                                     </h2>
                                 </div>
                             </div>
@@ -190,23 +190,11 @@
                         <div class="col-sm-6 col-md-4 hvr-shrink">
                             <div class="profile-card">
                                 <div class="profile-img">
-                                    <img src="http://s1.1zoom.me/b5346/617/Sherlock_Holmes_Men_Benedict_Cumberbatch_518637_640x960.jpg" alt="Team Image"/>
+                                    <img src="img/team/gamlath.jpeg" alt="Team Image" height="500"/>
                                 </div>
                                 <div class="profile-content">
-                                    <h2 class="title">Henry Polles
-                                        <span>078 9966789</span>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 hvr-shrink">
-                            <div class="profile-card">
-                                <div class="profile-img">
-                                    <img src="http://s1.1zoom.me/b5346/617/Sherlock_Holmes_Men_Benedict_Cumberbatch_518637_640x960.jpg" alt="Team Image"/>
-                                </div>
-                                <div class="profile-content">
-                                    <h2 class="title">Henry Polles
-                                        <span>078 9966789</span>
+                                    <h2 class="title">Damika Gamlath
+                                        <span>071 625 5573</span>
                                     </h2>
                                 </div>
                             </div>

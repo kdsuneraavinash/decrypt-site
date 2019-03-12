@@ -85,7 +85,7 @@
         <section class="recent_update_area py-4" id="recent_update_area">
             <div class="container">
                 <div class="recent_update_inner">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="ideathon-tab" data-toggle="tab" href="#ideathon" role="tab"
                                aria-controls="ideathon" aria-selected="true" data-aos="zoom-in">
@@ -113,13 +113,13 @@
                                 Workshop
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" id="coding-tab" data-toggle="tab" href="#coding" role="tab"
                                aria-controls="coding"
                                aria-selected="false" data-aos="zoom-in">
                                 Coding Competition
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" id="exhibition-tab" data-toggle="tab" href="#exhibition" role="tab"
                                aria-controls="exhibition"
@@ -203,7 +203,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="coding" role="tabpanel" aria-labelledby="coding-tab">
+                        <!-- <div class="tab-pane fade" id="coding" role="tabpanel" aria-labelledby="coding-tab">
                             <div class="row recent_update_text">
                                 <div class="col-lg-6">
                                     <div class="chart_img">
@@ -219,7 +219,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="tab-pane fade" id="exhibition" role="tabpanel" aria-labelledby="exhibition-tab">
                             <div class="row recent_update_text">
                                 <div class="col-lg-6">

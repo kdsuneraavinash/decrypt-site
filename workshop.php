@@ -73,7 +73,7 @@
 <!--===========winners awards=============-->
 
 <!--================Contact info============-->
-<div class="contacts_parallax">
+<!-- <div class="contacts_parallax">
     <div class="inner">
         <section class="about_us_area section_gap text-white">
             <div class="d-flex align-items-center my-2 py-2">
@@ -129,7 +129,7 @@
             </div>
         </section>
     </div>
-</div>
+</div> -->
 
 <section class="bg_decrypt section_gap">
     <div class="container-fluid">

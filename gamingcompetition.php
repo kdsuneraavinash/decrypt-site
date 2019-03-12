@@ -76,7 +76,7 @@
     </div>
 </div>
 <!--===========winners awards=============-->
-<section class="bg_decrypt section_gap">
+<!-- <section class="bg_decrypt section_gap">
     <div class="container">
         <div class="d-flex align-items-center mb-5 pb-5">
             <div class="container">
@@ -100,9 +100,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="bg_decrypt section_gap">
+<!-- <section class="bg_decrypt section_gap">
     <div class="container">
         <div class="d-flex align-items-center mb-5 pb-5" data-aos="fade-up">
             <div class="container">
@@ -125,10 +125,10 @@
             <p data-aos="fade-up">Registration closes on <strong>25th of March</strong></p>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--================Contact info============-->
-<div class="contacts_parallax">
+<!-- <div class="contacts_parallax">
     <div class="inner">
         <section class="about_us_area section_gap text-white">
             <div class="d-flex align-items-center my-2 py-2">
@@ -184,7 +184,7 @@
             </div>
         </section>
     </div>
-</div>
+</div> -->
 
 <section class="bg_decrypt section_gap">
     <div class="container-fluid">
