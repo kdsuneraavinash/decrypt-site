@@ -178,7 +178,7 @@
                         <div class="col-sm-6 col-md-4 hvr-shrink">
                             <div class="profile-card">
                                 <div class="profile-img">
-                                    <img src="img/team/gayal.jpg" class="img-fluid" alt="Team Image"/>
+                                    <img src="img/team/gayal.jpg" class="img-fluid rounded-circle" alt="Team Image"/>
                                 </div>
                                 <div class="profile-content">
                                     <h2 class="title">Gayal Dassanayake
@@ -190,11 +190,23 @@
                         <div class="col-sm-6 col-md-4 hvr-shrink">
                             <div class="profile-card">
                                 <div class="profile-img">
-                                    <img src="img/team/gamlath.jpeg" class="img-fluid" alt="Team Image"/>
+                                    <img src="img/team/gamlath.jpeg" class="img-fluid rounded-circle" alt="Team Image"/>
                                 </div>
                                 <div class="profile-content">
                                     <h2 class="title">Damika Gamlath
                                         <span>071 625 5573</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hvr-shrink">
+                            <div class="profile-card">
+                                <div class="profile-img">
+                                    <img src="img/team/ruchin.jpeg" class="img-fluid rounded-circle" alt="Team Image"/>
+                                </div>
+                                <div class="profile-content">
+                                    <h2 class="title">Ruchin Amarathunga
+                                        <span>077 664 4179</span>
                                     </h2>
                                 </div>
                             </div>

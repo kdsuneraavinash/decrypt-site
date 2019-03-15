@@ -127,7 +127,7 @@
 </section> -->
 
 <!--================Contact info============-->
-<!-- <div class="contacts_parallax">
+<div class="contacts_parallax">
     <div class="inner">
         <section class="about_us_area section_gap text-white">
             <div class="d-flex align-items-center my-2 py-2">
@@ -145,38 +145,12 @@
                         <div class="col-sm-6 col-md-4 hvr-shrink">
                             <div class="profile-card">
                                 <div class="profile-img">
-                                    <img src="http://s1.1zoom.me/b5346/617/Sherlock_Holmes_Men_Benedict_Cumberbatch_518637_640x960.jpg"
-                                         alt="Team Image"/>
+                                    <img src="img/team/sasindu.jpeg"
+                                         alt="Team Image" class="rounded-circle"/>
                                 </div>
                                 <div class="profile-content">
-                                    <h2 class="title">Henry Polles
-                                        <span>078 9966789</span>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 hvr-shrink">
-                            <div class="profile-card">
-                                <div class="profile-img">
-                                    <img src="http://s1.1zoom.me/b5346/617/Sherlock_Holmes_Men_Benedict_Cumberbatch_518637_640x960.jpg"
-                                         alt="Team Image"/>
-                                </div>
-                                <div class="profile-content">
-                                    <h2 class="title">Henry Polles
-                                        <span>078 9966789</span>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 hvr-shrink">
-                            <div class="profile-card">
-                                <div class="profile-img">
-                                    <img src="http://s1.1zoom.me/b5346/617/Sherlock_Holmes_Men_Benedict_Cumberbatch_518637_640x960.jpg"
-                                         alt="Team Image"/>
-                                </div>
-                                <div class="profile-content">
-                                    <h2 class="title">Henry Polles
-                                        <span>078 9966789</span>
+                                    <h2 class="title">Sasindu Dilshara
+                                        <span>076 881 1875</span>
                                     </h2>
                                 </div>
                             </div>
@@ -186,7 +160,7 @@
             </div>
         </section>
     </div>
-</div> -->
+</div>
 <!--================End Timeline =================-->
 
 <?php include 'footer.php' ?>
