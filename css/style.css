@@ -741,7 +741,7 @@ img {
 
 #lightgallery a img {
   width: 400px;
-  height: auto;
+  height: 266.66px;
   object-fit: cover; }
 
 /*---------------------------------------------------- */
@@ -1386,17 +1386,19 @@ img {
     padding: 1em;
     letter-spacing: 2px;
     border-radius: 30px; }
-  .timeline--entry__title:hover {
-    background: -webkit-linear-gradient(to right, #396afc 0%, #2948ff 51%);
-    background: -moz-linear-gradient(to right, #396afc 0%, #2948ff 51%);
-    background: -o-linear-gradient(to right, #396afc 0%, #2948ff 51%);
-    background: linear-gradient(to right, #396afc 0%, #2948ff 51%); }
+    .timeline--entry__title:hover {
+      background: -webkit-linear-gradient(to right, #396afc 0%, #2948ff 51%);
+      background: -moz-linear-gradient(to right, #396afc 0%, #2948ff 51%);
+      background: -o-linear-gradient(to right, #396afc 0%, #2948ff 51%);
+      background: linear-gradient(to right, #396afc 0%, #2948ff 51%); }
   .timeline--entry__detail {
     padding: 1em;
     margin: 0;
     color: #000;
     font-size: 1.5em;
-    font-weight: 400; }
+    font-weight: 400;
+    width: 300px;
+    text-align: left; }
   .timeline--entry:before {
     display: flex;
     align-items: center;
@@ -1418,7 +1420,7 @@ img {
   line-height: 1.5; }
 
 @supports (display: grid) {
-  @media (min-width: 768px) {
+  @media (min-width: 1000px) {
     .timeline {
       display: grid;
       grid-gap: 4.75em;
