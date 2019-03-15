@@ -38,7 +38,7 @@
                         <h3><strong>Who can participate?</strong></h3>
 
                         <p>
-                            All interested students from ‘18 batch of undergraduates from University of Moratuwa are
+                            All interested students from ‘18 batch of University of Moratuwa are
                             warmly
                             welcome to participate in the workshop.
                         </p>
@@ -65,6 +65,9 @@
                             this is where the techniques and tips introduced at the workshop might come in handy for
                             you!
                         </p>
+                        <br/>
+                        <br/>
+                        <h1 class="text-warning"><strong>STAY TUNED FOR MORE INFO</strong></h1>
                     </div>
 
                     <div class="col-md-2"></div>

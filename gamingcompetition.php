@@ -37,7 +37,11 @@
 
                         <h3><strong>What are the games included?</strong></h3>
                         <p>
-                        Call Of Duty 4
+                            Call Of Duty 4
+                            <br/>
+                            Blur
+                            <br/>
+                            Mortal Combat
                         </p>
                         <br/>
 
@@ -50,13 +54,13 @@
 
                         <h3><strong>Why should you participate?</strong></h3>
                         <p>
-                        Do we really have to explain that? Because you love gaming, duh!
+                            Do we really have to explain that? Because you love gaming, duh!
                         </p>
                         <br/>
 
                         <h3><strong>What do you get by participating?</strong></h3>
                         <p>
-                        This will be an amazing opportunity for you to relax and restore your mental health.
+                            This will be an amazing opportunity for you to relax and restore your mental health.
                             You also get to test your gaming skills against your peers. Winning (name of competition)
                             will definitely give you a well earned right to boast! And of course, exciting cash prizes
                             await the winners!
@@ -64,9 +68,12 @@
                         <br/>
 
                         <p><strong>
-                        PS: A little bit of practicing beforehand will not do you any harm..
+                                PS: A little bit of practicing beforehand will not do you any harm..
                                 It's not always that you get such a good excuse to keep gaming!
-                        </strong></p>
+                            </strong></p>
+                        <br/>
+                        <br/>
+                        <h1 class="text-warning"><strong>STAY TUNED FOR MORE INFO</strong></h1>
                     </div>
 
                     <div class="col-md-2"></div>
