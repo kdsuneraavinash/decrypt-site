@@ -27,9 +27,9 @@
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
 
-                        <h3><strong>What is (name of competition)?</strong></h3>
+                        <h3><strong>What is GameZone?</strong></h3>
                         <p>
-                            (name of competition) is an e-gaming competition to make a fun and relaxing change in
+                            GameZone is an e-gaming competition to make a fun and relaxing change in
                             your monotonous life. With a variety of your favourite PC and X box games,
                             it will surely capture the heart and soul of any gaming enthusiast!
                         </p>
@@ -37,13 +37,13 @@
 
                         <h3><strong>What are the games included?</strong></h3>
                         <p>
-                        (list of games)
+                        Call Of Duty 4
                         </p>
                         <br/>
 
                         <h3><strong>Who can participate?</strong></h3>
                         <p>
-                            Teams consisting of (no. of players) players.
+                            Teams consisting of 5 players.
                             All players should be students of University of Moratuwa.
                         </p>
                         <br/>

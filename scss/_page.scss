@@ -73,6 +73,7 @@
   }
 
   .profile-content {
+    border-radius: 50%;
     position: absolute;
     top: 0;
     left: 0;
@@ -107,8 +108,8 @@
     }
 
     .profile-content{
-      background-color: #000000AA;
-      transition: all 600ms;
+        background-color: #000000AA;
+        transition: all 600ms;
 
       &:before {
         top: 20px;

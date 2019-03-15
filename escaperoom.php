@@ -26,42 +26,44 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <h3><strong>What is an EscapeRoom?</strong></h3>
+
+                        <h3><strong>Escape room is…</strong></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat diam quis ligula
-                            sodales sagittis. Fusce vitae dui magna. Etiam in ex non velit fermentum dictum quis quis
-                            velit. Sed dictum, ligula at sollicitudin consectetur, nisi libero venenatis ligula, eget
-                            ullamcorper sapien urna eget diam. Sed blandit, arcu a mollis fringilla, libero justo
-                            scelerisque diam, quis laoreet ipsum diam eget purus. Donec pellentesque volutpat cursus.
-                            Donec consequat congue turpis, et eleifend enim sagittis eu. Nulla facilisi. Donec id
-                            pulvinar magna. Etiam in euismod ipsum, semper varius mauris. Integer nec ex ac erat mollis
-                            porttitor.
+                            Escape room is a strategic game in which the players solve a set of puzzles using clues,
+                            hints
+                            and strategies to accomplish an assigned task. Players compete in pre-determined groups of
+                            six.
+                            A single team from each E-group will be accepted. Players are expected to unveil all the
+                            secrets
+                            and complete the mission within a set time limit. VThe earliest team to succeed shall win.
                         </p>
                         <br/>
-                        <h3><strong>Who can participate?</strong></h3>
+                        <h3><strong>Who are the lucky ones?</strong></h3>
                         <p>
-                            Nulla vulputate purus nec felis lobortis iaculis. Maecenas egestas iaculis urna in feugiat.
-                            Mauris turpis quam, auctor ac rutrum eget, feugiat eget metus. Integer sagittis facilisis
-                            nibh ac ornare. Aenean vestibulum orci augue. Suspendisse eleifend massa diam, non
-                            consectetur sem consequat quis. Ut ultricies, magna nec porta bibendum, dolor ligula lacinia
-                            nulla, nec lobortis nibh mauris ac massa. Vivamus vitae auctor magna. Praesent mi purus,
-                            maximus nec feugiat vel, facilisis quis nisl. Duis non finibus justo. Ut posuere leo id
-                            risus pulvinar, pellentesque maximus tellus volutpat. Proin sed turpis condimentum est
-                            maximus lobortis. Nam non tortor enim. Curabitur at ultrices quam, sed pulvinar justo. Donec
-                            et sapien maximus, dignissim mauris elementum, tincidunt risus.
+                            Escape room is open for all students from the ’18 batch who have an undying passion for
+                            puzzles
+                            and riddles, build up a team with five other people just as enthusiastic as you are from
+                            your
+                            own E-group and come to witness this one of a kind adventure organized just for you!
                         </p>
                         <br/>
-                        <h3><strong>What do you get by participating?</strong></h3>
-                        <p>Mauris porta magna eu leo bibendum, in volutpat dui varius. Maecenas lacinia lacus non
-                            rhoncus hendrerit. Duis varius laoreet est eget egestas. Integer aliquam, ex vehicula
-                            consequat posuere, odio nunc scelerisque libero, at vestibulum neque sem vel erat. Nunc vel
-                            ullamcorper metus, eu placerat lectus. Vivamus fringilla suscipit nunc, id commodo augue
-                            semper at. Aliquam aliquet sit amet ex nec ultrices. Nam nunc lectus, ultrices non
-                            vestibulum id, placerat ut nunc. Phasellus commodo condimentum vestibulum. Proin massa
-                            risus, pulvinar et tortor sodales, malesuada vehicula ligula. Etiam sit amet nisl sed metus
-                            vehicula semper. Nunc condimentum lorem quis varius scelerisque. Pellentesque ac aliquam
-                            nulla, at rhoncus felis. Phasellus auctor ligula et ultrices sagittis. Sed efficitur ligula
-                            et lobortis pulvinar.</p>
+
+                        <h3><strong>Why bother to participate?</strong></h3>
+                        <p>
+                            It’s not every day you get a chance to participate in a game so incredibly planned! When was
+                            the
+                            last time anyone entered an escape room for free? Allow yourself the privilege of
+                            encountering
+                            new dimensions in mystery solving.
+                        </p>
+                        <br/>
+                        <h3><strong>What will you learn?</strong></h3>
+                        <p>
+                            Where else would you get to learn the ways of solving puzzles and approaching strategies
+                            you’d
+                            get to learn here. Let your brain be teased for a while with all the complex algorithms. It
+                            wouldn’t hurt to give a try!
+                        </p>
                     </div>
 
                     <div class="col-md-2"></div>

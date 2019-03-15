@@ -26,42 +26,45 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <h3><strong>Decrypt Workshop</strong></h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat diam quis ligula
-                            sodales sagittis. Fusce vitae dui magna. Etiam in ex non velit fermentum dictum quis quis
-                            velit. Sed dictum, ligula at sollicitudin consectetur, nisi libero venenatis ligula, eget
-                            ullamcorper sapien urna eget diam. Sed blandit, arcu a mollis fringilla, libero justo
-                            scelerisque diam, quis laoreet ipsum diam eget purus. Donec pellentesque volutpat cursus.
-                            Donec consequat congue turpis, et eleifend enim sagittis eu. Nulla facilisi. Donec id
-                            pulvinar magna. Etiam in euismod ipsum, semper varius mauris. Integer nec ex ac erat mollis
-                            porttitor.
+                            The workshop is a session mainly intended to give an insight into how a problem, whether
+                            real-life or programming, could be tackled using life-hacking techniques that would lead to
+                            a
+                            better and faster solution. It will also focus on introducing the participants to the
+                            amazing
+                            life inside CSE.
                         </p>
                         <br/>
                         <h3><strong>Who can participate?</strong></h3>
+
                         <p>
-                            Nulla vulputate purus nec felis lobortis iaculis. Maecenas egestas iaculis urna in feugiat.
-                            Mauris turpis quam, auctor ac rutrum eget, feugiat eget metus. Integer sagittis facilisis
-                            nibh ac ornare. Aenean vestibulum orci augue. Suspendisse eleifend massa diam, non
-                            consectetur sem consequat quis. Ut ultricies, magna nec porta bibendum, dolor ligula lacinia
-                            nulla, nec lobortis nibh mauris ac massa. Vivamus vitae auctor magna. Praesent mi purus,
-                            maximus nec feugiat vel, facilisis quis nisl. Duis non finibus justo. Ut posuere leo id
-                            risus pulvinar, pellentesque maximus tellus volutpat. Proin sed turpis condimentum est
-                            maximus lobortis. Nam non tortor enim. Curabitur at ultrices quam, sed pulvinar justo. Donec
-                            et sapien maximus, dignissim mauris elementum, tincidunt risus.
+                            All interested students from ‘18 batch of undergraduates from University of Moratuwa are
+                            warmly
+                            welcome to participate in the workshop.
+                        </p>
+                        <br/>
+                        <h3><strong>Why should you participate?</strong></h3>
+
+                        <p>
+                            You would never know when you would be confronted with a problem! So it’s always better to
+                            be
+                            prepared with the correct set of techniques to approach the solution. And that is exactly
+                            where
+                            your code should begin! The workshop will guide you into writing a successful code easier
+                            and
+                            faster.
                         </p>
                         <br/>
                         <h3><strong>What do you get by participating?</strong></h3>
-                        <p>Mauris porta magna eu leo bibendum, in volutpat dui varius. Maecenas lacinia lacus non
-                            rhoncus hendrerit. Duis varius laoreet est eget egestas. Integer aliquam, ex vehicula
-                            consequat posuere, odio nunc scelerisque libero, at vestibulum neque sem vel erat. Nunc vel
-                            ullamcorper metus, eu placerat lectus. Vivamus fringilla suscipit nunc, id commodo augue
-                            semper at. Aliquam aliquet sit amet ex nec ultrices. Nam nunc lectus, ultrices non
-                            vestibulum id, placerat ut nunc. Phasellus commodo condimentum vestibulum. Proin massa
-                            risus, pulvinar et tortor sodales, malesuada vehicula ligula. Etiam sit amet nisl sed metus
-                            vehicula semper. Nunc condimentum lorem quis varius scelerisque. Pellentesque ac aliquam
-                            nulla, at rhoncus felis. Phasellus auctor ligula et ultrices sagittis. Sed efficitur ligula
-                            et lobortis pulvinar.</p>
+
+                        <p>
+                            Programming may become a challenge not because you cannot code, but because you cannot
+                            organize
+                            your thoughts to formulate a proper solution. Coding is all about following the right track,
+                            and
+                            this is where the techniques and tips introduced at the workshop might come in handy for
+                            you!
+                        </p>
                     </div>
 
                     <div class="col-md-2"></div>
@@ -183,10 +186,10 @@
         cssEasing: 'cubic-bezier(0.25, 0, 0.25, 1)'
     });
 
-    gallery.addEventListener('onAfterOpen', function() {
+    gallery.addEventListener('onAfterOpen', function () {
         $(".navbar").hide();
     });
-    gallery.addEventListener('onBeforeClose', function() {
+    gallery.addEventListener('onBeforeClose', function () {
         $(".navbar").show();
     });
 

@@ -144,18 +144,21 @@
             </div>
         </div>
         <div class="additional_links text-center">
-            <div class="mt-5" data-aos="fade-up">
+            <div class="mt-5" data-aos="fade-in">
                 <a href="assets/ruleset.pdf" target="_blank" class="p-4">
                     &nbsp;&nbsp;&nbsp;&nbsp;Download Ruleset&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
             </div>
-            <div class="mt-5" data-aos="fade-up">
+            <div class="mt-5" data-aos="fade-in">
                 <a href="assets/proposal.pdf" target="_blank" class="p-4">
                     Download Sample Proposal
                 </a>
             </div>
-            <p data-aos="fade-up">Send all your ideathon proposals to <strong>decrypt2.0@gmail.com</strong> before
-                <strong>25th of March</strong></p>
+            <div class="mt-5" data-aos="fade-in">
+                <a href="https://www.google.com" target="_blank" class="p-4">
+                    &nbsp; &nbsp;&nbsp;&nbsp;Register Now! &nbsp;&nbsp;&nbsp; &nbsp;
+                </a>
+            </div>
         </div>
     </div>
 </section>

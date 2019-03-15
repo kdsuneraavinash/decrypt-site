@@ -232,7 +232,6 @@
                                         <h6>Decrypt Exhibition</h6>
                                         <h1>Caution!<br/>Computer Engineers in their natural habitat.. </h1>
                                         <p>Get a sneak peek of the Department of CSE with the Decrypt Exhibition. Come, See, Enjoy!</p>
-                                        <a class="primary_btn" href="exhibition.html">Learn More</a>
                                     </div>
                                 </div>
                             </div>

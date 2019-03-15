@@ -21,7 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="escaperoom.php">Escape Room</a>
                         <li class="nav-item"><a class="nav-link" href="gamingcompetition.php">Gaming Competition</a>
                         <!-- <li class="nav-item"><a class="nav-link" href="codingcompetition.php">Coding Competition</a> -->
-                        <li class="nav-item"><a class="nav-link" href="exhibition.php">Decrypt Exhibition</a>
+<!--                        <li class="nav-item"><a class="nav-link" href="exhibition.php">Decrypt Exhibition</a>-->
                         <li class="nav-item"><a class="nav-link" href="workshop.php">Workshop</a>
                     </ul>
                 </div>
